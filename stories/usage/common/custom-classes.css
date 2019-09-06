@@ -1,0 +1,24 @@
+.custom-both-buttons {
+  background: #d9d9d7;
+  padding: 10px;
+}
+button.custom-apply-button,
+button.custom-apply-button:disabled,
+button.custom-apply-button:hover {
+  border: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #262903;
+  background: #f2ff66;
+}
+button.custom-cancel-button {
+  color: #262903;
+  font-size: 32px;
+  font-weight: bold;
+}
+.customDay {
+  background: #f2ff66;
+}
+.foobar {
+  background: #eb34ba;
+}

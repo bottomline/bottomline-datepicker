@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Position should change position based on window 1`] = `
+<div
+  className="Position-dropdown-0-1-1 Position-dropdownUp-0-1-6 Position-screenReaderLabel-0-1-2"
+  data-qa="dropdown-position"
+>
+  <div>
+    Children
+  </div>
+</div>
+`;
+
+exports[`Position should change position when spaceLeftIsGreater 1`] = `
+<div
+  className="Position-dropdown-0-1-1 Position-dropdownLeft-0-1-4 Position-dropdownUp-0-1-6 Position-screenReaderLabel-0-1-2"
+  data-qa="dropdown-position"
+>
+  <div>
+    Children
+  </div>
+</div>
+`;

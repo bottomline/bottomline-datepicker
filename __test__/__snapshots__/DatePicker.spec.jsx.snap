@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker should render correct theme 1`] = `
+<input
+  autoComplete="off"
+  className=" Input-input-0-1-7 Input-input-0-1-9"
+  data-qa="text-input"
+  id="unique"
+  name=""
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyPress={[Function]}
+  placeholder=""
+  type="text"
+  value=""
+/>
+`;
+
+exports[`DatePicker should show week numbers 1`] = `
+<thead>
+  <tr>
+    <td
+      className="WeekDays-headerCell-0-1-117 WeekDays-weekHeader-0-1-118"
+    >
+      W
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-1-S"
+    >
+      S
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-2-M"
+    >
+      M
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-3-T"
+    >
+      T
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-4-W"
+    >
+      W
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-5-T"
+    >
+      T
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-6-F"
+    >
+      F
+    </td>
+    <td
+      className="WeekDays-headerCell-0-1-117"
+      key="day-7-S"
+    >
+      S
+    </td>
+  </tr>
+</thead>
+`;
+
+exports[`DatePicker should update input with date range 1`] = `"20 Mar 2018 – 22 Mar 2018"`;
+
+exports[`DatePicker should update input with date range with autoapply 1`] = `"20 Mar 2018 – 22 Mar 2018"`;

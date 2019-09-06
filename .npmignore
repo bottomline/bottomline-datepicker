@@ -1,0 +1,10 @@
+/.*
+*.tgz
+__mocks__
+__test__
+coverage
+jest.config.js
+rollup.config.js
+node_modules
+.storybook
+stories
