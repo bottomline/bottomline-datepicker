@@ -1,9 +1,7 @@
 import React from 'react';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
-import {
-  ThemeProvider, withStyles, nextTheme, legacyTheme
-} from '@glu/theming';
-import { withKnobs, select } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 
 const styles = {
   root: {
@@ -23,18 +21,12 @@ const styles = {
   }
 };
 
-const options = ['Ash', 'Legacy'];
-
 const StoryWrapper = ({ classes, story }) => {
-  const selected = select('Theme', options, legacyTheme);
-  const baseTheme = selected === 'Legacy' ? legacyTheme : nextTheme;
   const storyWithKnobs = withKnobs(story, classes);
   return (
-    <ThemeProvider baseTheme={baseTheme}>
-      <div className={classes.root}>
-        {storyWithKnobs}
-      </div>
-    </ThemeProvider>
+    <div className={classes.root}>
+      {storyWithKnobs}
+    </div>
   );
 };
 StoryWrapper.propTypes = {
@@ -42,7 +34,7 @@ StoryWrapper.propTypes = {
   classes: PropTypes.shape({}).isRequired
 };
 
-const StyledStoryWrapper = withStyles(styles)(StoryWrapper);
+const StyledStoryWrapper = injectSheet(styles)(StoryWrapper);
 
 export const withStoryWrapper = (storyFn, classes) => (
   <StyledStoryWrapper classes={classes} story={storyFn}>{storyFn()}</StyledStoryWrapper>

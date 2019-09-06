@@ -1,4 +1,4 @@
-export default ({ datepickerReact }) => ({
+export default {
   header: {
     margin: [4, 0, 20, 0],
     padding: [0, 20],
@@ -17,7 +17,12 @@ export default ({ datepickerReact }) => ({
     wordWrap: 'normal !important'
   },
   title: {
-    ...datepickerReact.monthSelectTitle
+    color: '#333333',
+    fontFamily: `"Roboto Condensed", ${'Roboto, Helvetica, Arial, sans-serif'}`,
+    fontSize: 20,
+    lineHeight: '28px',
+    textAlign: 'center',
+    textTransform: 'uppercase'
   },
   button: {
     background: 'transparent',
@@ -28,18 +33,16 @@ export default ({ datepickerReact }) => ({
     position: 'absolute',
     top: 0,
     width: '14%',
-    ...datepickerReact.monthSelectButton,
     '& svg': {
-      fill: datepickerReact.iconFill,
+      fill: '#333333',
       left: '50%',
       marginLeft: -9,
       marginTop: -8,
       position: 'absolute',
-      top: '50%',
-      ...datepickerReact.monthSelectIcon
+      top: '50%'
     },
     '&:hover svg': {
-      fill: datepickerReact.iconFillHover
+      fill: '#6E6E6E'
     }
   },
   prev: {
@@ -53,4 +56,4 @@ export default ({ datepickerReact }) => ({
     margin: [0, 5],
     verticalAlign: 'middle'
   }
-});
+};

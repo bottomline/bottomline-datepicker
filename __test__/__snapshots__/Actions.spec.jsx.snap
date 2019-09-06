@@ -3,7 +3,7 @@
 exports[`Actions should render correctly 1`] = `
 Array [
   <button
-    className="BareButton-root-0-1-3 BareButton-root-0-1-10 BareButton-primary-0-1-7 BareButton-small-0-1-5 "
+    className="Actions-applyButton-0-1-1  "
     data-qa="apply-button"
     disabled={false}
     onClick={[Function]}
@@ -25,7 +25,7 @@ Array [
 exports[`Actions should render correctly with defined dataQa 1`] = `
 Array [
   <button
-    className="BareButton-root-0-1-3 BareButton-root-0-1-11 BareButton-primary-0-1-7 BareButton-small-0-1-5 "
+    className="Actions-applyButton-0-1-1  "
     data-qa="khorne-apply-button"
     disabled={false}
     onClick={[Function]}

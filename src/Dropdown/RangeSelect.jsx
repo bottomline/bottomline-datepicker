@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React from 'react';
 import moment from 'moment';
@@ -90,4 +90,4 @@ RangeSelect.propTypes = {
   showCustomRangeLabel: PropTypes.bool.isRequired
 };
 
-export default withTheme(withStyles(styles)(RangeSelect));
+export default injectSheet(styles)(RangeSelect);

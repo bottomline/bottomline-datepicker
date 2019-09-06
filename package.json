@@ -1,40 +1,29 @@
 {
-  "name": "@glu/datepicker-react",
-  "version": "0.4.0-alpha.0",
-  "description": "A Glu DatePicker for React applications",
+  "name": "@bottomline/datepicker",
+  "version": "0.1.0-alpha.0",
+  "description": "A DatePicker for React applications",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "main": "umd/index.js",
   "module": "esm/index.js",
   "scripts": {
     "lint": "eslint --fix --ignore-path ./.gitignore --ext .js,.jsx .",
     "test": "jest",
-    "build": "npm run clean && npm run copy && rollup -c && npm run babel && npm run babelCJS",
-    "devPackage": "npm run lint && npm run test && npm run build && cd dist && npm pack",
-    "clean": "shx rm -rf dist",
-    "copy": "shx mkdir dist && shx cp -r src dist/src && shx cp {package.json,README.md,.npmignore} dist",
-    "babel": "babel src --out-dir dist/lib",
-    "babelCJS": "babel src --presets=@babel/preset-env,@babel/preset-react --out-dir dist/cjs",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 1234"
   },
   "repository": {
     "type": "git",
     "url": "ssh://git@stash.saas-p.com:7999/glu/glu-datepicker-react.git"
   },
   "license": "UNLICENSED",
-  "peerDependencies": {
-    "@glu/buttons-react": ">0.4.1",
-    "@glu/form-components": ">=0.4.0",
-    "@glu/icons-react": ">=0.6.0",
-    "@glu/locale": ">=0.6.2",
-    "@glu/theming": ">=1.4.1",
-    "@glu/utilities-react": ">=0.2.0",
-    "daterangepicker": ">=3.0.0",
-    "moment": ">=2.11.2",
-    "numeral": ">=1.5.3",
-    "prop-types": ">=15.0.0",
-    "react": ">=16.3.0",
-    "react-dom": ">=16.3.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
@@ -42,15 +31,6 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
-    "@glu/babel-preset": "^1.1.1",
-    "@glu/buttons-react": "^0.4.1",
-    "@glu/eslint-config": "^1.0.3",
-    "@glu/form-components": "^0.4.0",
-    "@glu/icons-react": "^0.6.0",
-    "@glu/locale": "^0.6.2",
-    "@glu/theming": "^1.6.1",
-    "@glu/utilities-react": "^0.2.0",
-    "@glu/validation-react": "^0.2.0",
     "@storybook/addon-a11y": "^5.1.9",
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-info": "^5.1.9",
@@ -63,8 +43,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
-    "daterangepicker": "^3.0.0",
-    "enzyme": "^3.8.0",
+    "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
     "eslint": "^5.10.0",
@@ -72,21 +51,20 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^2.0.1",
     "jest": "^24.8.0",
     "jss": "^9.8.7",
     "jss-preset-default": "^4.5.0",
-    "moment": "^2.11.0",
-    "numeral": "^1.5.3",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-jss": "^8.6.1",
     "rollup": "^0.68.0",
     "rollup-plugin-babel": "^4.1.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
-    "shx": "^0.3.2"
+    "rollup-plugin-node-resolve": "^4.0.0"
   },
   "dependencies": {
-    "classnames": "^2.2.6"
+    "classnames": ">=2.2.6",
+    "moment": ">=2.11.2",
+    "prop-types": ">=15.0.0",
+    "react": ">=16.3.0",
+    "react-dom": ">=16.3.0",
+    "react-jss": ">=8.6.1"
   }
 }

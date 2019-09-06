@@ -1,24 +1,24 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React from 'react';
-import locale from '@glu/locale';
+import localeGet from '../../utils/locale.js';
 import styles from './WeekDays.styles';
 
 const WeekDays = ({ classes, weekNumbers }) => {
   const weekdays = [
-    locale.get('sun'),
-    locale.get('mon'),
-    locale.get('tue'),
-    locale.get('wed'),
-    locale.get('thu'),
-    locale.get('fri'),
-    locale.get('sat')
+    localeGet('sun'),
+    localeGet('mon'),
+    localeGet('tue'),
+    localeGet('wed'),
+    localeGet('thu'),
+    localeGet('fri'),
+    localeGet('sat')
   ];
   return (
     <thead>
       <tr>
         {weekNumbers
-            && <td className={`${classes.headerCell} ${classes.weekHeader}`}>{locale.get('weekHeader')}</td>
+            && <td className={`${classes.headerCell} ${classes.weekHeader}`}>{localeGet('weekHeader')}</td>
           }
         {weekdays.map((day, i) => (
           <td key={`day-${i + 1}-${day}`} className={classes.headerCell}>{day}</td>
@@ -34,4 +34,4 @@ WeekDays.propTypes = {
 };
 
 
-export default withTheme(withStyles(styles)(WeekDays));
+export default injectSheet(styles)(WeekDays);

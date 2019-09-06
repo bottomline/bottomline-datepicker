@@ -1,10 +1,7 @@
-import { withStyles, withTheme } from '@glu/theming';
-import locale from '@glu/locale';
+import injectSheet from 'react-jss';
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  Button, PRIMARY, SMALL
-} from '@glu/buttons-react';
+import localeGet from '../utils/locale.js';
 import styles from './Actions.styles';
 
 const Actions = ({
@@ -18,23 +15,22 @@ const Actions = ({
   cancelButtonClasses
 }) => (
   <div className={`${classes.actions} ${buttonClasses}`}>
-    <Button
-      variant={PRIMARY}
-      type="button"
+    <button
+      className={`${classes.applyButton}  ${applyButtonClasses}`}
       data-qa={dataQa ? `${dataQa}-apply-button` : 'apply-button'}
-      size={SMALL}
-      text={locale.get('apply')}
-      onClick={onClickApply}
       disabled={disabled}
-      className={applyButtonClasses}
-    />
+      onClick={onClickApply}
+      type="button"
+    >
+      {localeGet('apply')}
+    </button>
     <button
       type="button"
       data-qa={dataQa ? `${dataQa}-cancel-button` : 'cancel-button'}
       onClick={onClickCancel}
       className={`${classes.cancelButton} ${cancelButtonClasses}`}
     >
-      {locale.get('cancel')}
+      {localeGet('cancel')}
     </button>
   </div>
 );
@@ -57,4 +53,4 @@ Actions.defaultProps = {
   options: {}
 };
 
-export default withTheme(withStyles(styles)(Actions));
+export default injectSheet(styles)(Actions);

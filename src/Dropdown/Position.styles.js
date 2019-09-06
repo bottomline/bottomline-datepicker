@@ -1,31 +1,23 @@
-export default ({ datepickerReact }) => ({
+export default {
   dropdown: {
     position: 'absolute',
     width: '100%',
     right: 0,
-    top: 55,
-    zIndex: 1,
-    ...datepickerReact.dropdownChevron
-  },
-  screenReaderLabel: {
-    top: 36
+    top: 36,
+    zIndex: 1
   },
   dropdownRight: {
-    right: 0,
-    ...datepickerReact.dropdownChevronRight
+    right: 0
   },
   dropdownLeft: {
-    width: 'auto',
-    ...datepickerReact.dropdownChevronLeft
+    width: 'auto'
   },
   dropdownCenter: {
     margin: [0, -160],
-    right: '50%',
-    ...datepickerReact.dropdownChevronCenter
+    right: '50%'
   },
   dropdownUp: {
     bottom: 40,
-    top: 'auto',
-    ...datepickerReact.dropdownChevronUp
+    top: 'auto'
   }
-});
+};

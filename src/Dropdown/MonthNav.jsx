@@ -1,10 +1,11 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import React from 'react';
 import PropTypes from 'prop-types';
-import locale from '@glu/locale';
-import { CaretLeftIcon, CaretRightIcon } from '@glu/icons-react';
 import moment from 'moment';
-import { AccessibilityText } from '@glu/utilities-react';
+import AccessibilityText from '../AccessibilityText';
+import localeGet from '../utils/locale.js';
+import CaretLeftIcon from '../icons/caret-left.svg';
+import CaretRightIcon from '../icons/caret-right.svg';
 import styles from './MonthNav.styles';
 import { isValidSelection } from '../utils/dateCompare';
 import SelectMonths from './SelectMonths';
@@ -29,7 +30,6 @@ const MonthNav = ({
   const handleNextClick = () => { setHead(nextMonth); };
   const handleSelectMonth = (month) => { setHead(moment(head).month(month)); };
   const handleSelectYear = (year) => { setHead(moment(head).year(year)); };
-
   return (
     <div className={classes.header}>
       {first && isValidSelection(prevMonth, [dateMin, dateMax]) && (
@@ -40,9 +40,9 @@ const MonthNav = ({
           type="button"
         >
           <AccessibilityText>
-            {locale.get('prevMonth')}
+            {localeGet('prevMonth')}
           </AccessibilityText>
-          <CaretLeftIcon />
+          <img src={CaretLeftIcon} alt={localeGet('prevMonth')} width="16" height="16" />
         </button>
       )}
       <div className={classes.title}>
@@ -54,7 +54,7 @@ const MonthNav = ({
                 onChange={handleSelectMonth}
               />
             )
-            : locale.get(head.format('MMM').toLowerCase())}
+            : localeGet(head.format('MMM').toLowerCase())}
         </div>
 
         <div className={classes.select}>
@@ -79,9 +79,9 @@ const MonthNav = ({
           type="button"
         >
           <AccessibilityText>
-            {locale.get('nextMonth')}
+            {localeGet('nextMonth')}
           </AccessibilityText>
-          <CaretRightIcon />
+          <img src={CaretRightIcon} alt={localeGet('nextMonth')} width="16" height="16" />
         </button>
       )}
     </div>
@@ -103,4 +103,4 @@ MonthNav.propTypes = {
 };
 
 
-export default withTheme(withStyles(styles)(MonthNav));
+export default injectSheet(styles)(MonthNav);

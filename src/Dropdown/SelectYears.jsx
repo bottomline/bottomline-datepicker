@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { AccessibilityText } from '@glu/utilities-react';
+import AccessibilityText from '../AccessibilityText';
 import StyledSelect from './StyledSelect';
 
 const SelectYears = ({

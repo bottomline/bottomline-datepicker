@@ -5,10 +5,6 @@ import { withStoryWrapper } from '../StoryWrapper';
 import { BareDatePicker } from '../../src';
 import ExampleDatePicker from './common/ExampleDatePicker';
 
-const notes = `
-  #Calendar options
-`;
-
 storiesOf('DatePicker.Usage.Calendars', module)
   .addDecorator(
     withInfo({
@@ -17,18 +13,12 @@ storiesOf('DatePicker.Usage.Calendars', module)
   )
 
   .addDecorator(withStoryWrapper)
-  .add('Min/Max Dates', () => (
-    <ExampleDatePicker
-      dateMin="2019-07"
-      dateMax="2019-11"
-    />
-  ), { notes: { markdown: notes } })
   .add('2 calendars', () => (
     <ExampleDatePicker
       numberOfMonths={2}
     />
   ))
-  .add('2 un-linked calendars', () => (
+  .add('3 un-linked calendars', () => (
     <ExampleDatePicker
       numberOfMonths={3}
       linkedCalendars={false}

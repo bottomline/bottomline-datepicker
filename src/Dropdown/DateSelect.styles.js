@@ -1,6 +1,8 @@
-export default ({ datepickerReact }) => ({
+export default {
   dropdown: {
-    ...datepickerReact.dropdown
+    boxShadow: '0 0 10px 0 rgba(0,0,0,0.3)',
+    padding: 20,
+    background: '#FFFFFF'
   },
   weekNumbers: {
     padding: [20, 10]
@@ -18,4 +20,4 @@ export default ({ datepickerReact }) => ({
     justifyContent: 'space-between',
     margin: [16, 0, 0, 0]
   }
-});
+};

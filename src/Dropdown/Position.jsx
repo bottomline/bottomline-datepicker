@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React, { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames';
@@ -63,4 +63,4 @@ Position.defaultProps = {
   labelText: 'undefined'
 };
 
-export default withTheme(withStyles(styles)(Position));
+export default injectSheet(styles)(Position);

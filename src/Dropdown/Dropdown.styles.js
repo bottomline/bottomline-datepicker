@@ -1,4 +1,4 @@
-export default ({ datepickerReact }) => ({
+export default {
   rangesLayout: {
     position: 'relative'
   },
@@ -25,14 +25,16 @@ export default ({ datepickerReact }) => ({
     transition: 'all 0.3s ease-in-out',
     width: '100%',
     zIndex: -1,
-    ...datepickerReact.dropdown
+    boxShadow: '0 0 10px 0 rgba(0,0,0,0.3)',
+    padding: 20,
+    background: '#FFFFFF'
   },
   condensed: {
     position: 'absolute',
     right: 0,
     width: '60%',
     transition: 'all .3s ease-in-out',
-    background: datepickerReact.rangePanelBackground,
+    background: '#F2F2F2',
     borderLeft: 'transparent'
   }
-});
+};

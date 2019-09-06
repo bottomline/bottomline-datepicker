@@ -1,13 +1,33 @@
-export default ({ datepickerReact }) => ({
-  actions: {
-    fontFamily: datepickerReact.fontFamily
+export default {
+  applyButton: {
+    backgroundColor: '#0070B9',
+    borderColor: '#0070B9',
+    borderRadius: 40,
+    borderStyle: 'solid',
+    color: '#FFFFFF',
+    cursor: 'pointer',
+    fontFamily: 'Roboto Condensed, Roboto, Helvetica, Arial, sans-serif',
+    fontSize: 16,
+    lineHeight: 1,
+    outlineOffset: -2,
+    padding: [5, 25],
+    '&:hover': {
+      backgroundColor: '#20A2FF',
+      borderColor: '#20A2FF'
+    },
+    '&:disabled': {
+      backgroundColor: '#7EB8DD',
+      borderColor: '#7EB8DD',
+      color: '#FFFFFF',
+      cursor: 'not-allowed'
+    }
   },
   cancelButton: {
     background: 'transparent',
     border: 'none',
-    color: datepickerReact.cancelButtonColor,
+    color: '#0070B9',
     cursor: 'pointer',
-    fontFamily: `"Roboto Condensed", ${datepickerReact.fontFamily}`,
+    fontFamily: 'Roboto Condensed, Roboto, Helvetica, Arial, sans-serif',
     fontSize: 16,
     height: 22,
     lineHeight: '22px',
@@ -17,11 +37,11 @@ export default ({ datepickerReact }) => ({
       textDecoration: 'underline'
     },
     '&:disabled': {
-      background: datepickerReact.cancelButtonColorDisabled
+      background: '#e0e0e0'
     },
     '&:disabled:hover': {
-      background: datepickerReact.cancelButtonColorDisabled,
+      background: '#20A2FF',
       cursor: 'default'
     }
   }
-});
+};

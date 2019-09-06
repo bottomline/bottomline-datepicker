@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import Position from './Position';
@@ -85,4 +85,4 @@ Dropdown.defaultProps = {
   selectedEndDate: undefined
 };
 
-export default withTheme(withStyles(styles)(Dropdown));
+export default injectSheet(styles)(Dropdown);

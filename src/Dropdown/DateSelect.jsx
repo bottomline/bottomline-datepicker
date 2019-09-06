@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import moment from 'moment';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
@@ -187,4 +187,4 @@ DateSelect.defaultProps = {
   selectedEndDate: undefined
 };
 
-export default withTheme(withStyles(styles)(DateSelect));
+export default injectSheet(styles)(DateSelect);

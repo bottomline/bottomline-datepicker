@@ -1,20 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { mount } from 'enzyme';
-
-import { nextTheme, ThemeProvider } from '@glu/theming';
 import DatePicker from '../src/DatePicker';
-import '../src/themeDefaults';
-
-const Wrapper = ({ children }) => (
-  <ThemeProvider baseTheme={nextTheme}>
-    {children}
-  </ThemeProvider>
-);
-
-Wrapper.propTypes = {
-  children: PropTypes.node.isRequired
-};
 
 const defaultProps = {
   rangePresets: { Today: ['2019-09-09', '2019-09-09'] },
@@ -31,22 +17,14 @@ describe('TextInput', () => {
   });
 
   it('should open dropdown after clicking toggle', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} />);
     const cancelButton = wrapper.find('[data-qa="toggle-button"]');
     cancelButton.simulate('click');
     expect(wrapper.find('[data-qa="date-select"]').getDOMNode()).toMatchSnapshot();
   });
 
   it('should handle manual input', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} singleDatePicker labelText="Picker of Greatness" />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} singleDatePicker labelText="Picker of Greatness" />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018' }
     });
@@ -55,11 +33,7 @@ describe('TextInput', () => {
   });
 
   it('should set valid start date and end date to selection when singleDatePicker', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} singleDatePicker />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} singleDatePicker />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018' }
     });
@@ -68,11 +42,7 @@ describe('TextInput', () => {
   });
 
   it('should set valid start to selection', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018' }
     });
@@ -81,11 +51,7 @@ describe('TextInput', () => {
   });
 
   it('should set valid start and end to selection', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018 - 10 july 2018' }
     });
@@ -94,11 +60,7 @@ describe('TextInput', () => {
   });
 
   it('should set valid start and ignore invalid end', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018 - 10 july 3040' }
     });
@@ -107,11 +69,7 @@ describe('TextInput', () => {
   });
 
   it('should set valid start and ignore malformed end', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018 - asdf' }
     });
@@ -120,11 +78,7 @@ describe('TextInput', () => {
   });
 
   it('should not set malformed start date to selection', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} singleDatePicker />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} singleDatePicker />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2076' }
     });
@@ -133,11 +87,7 @@ describe('TextInput', () => {
   });
 
   it('should not apply dates if other than Enter key is pressed', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker {...defaultProps} />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker {...defaultProps} />);
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018' }
     });
@@ -146,11 +96,7 @@ describe('TextInput', () => {
   });
 
   it('should close dropdown if Enter pressed', () => {
-    const wrapper = mount(
-      <Wrapper>
-        <DatePicker htmlId="unique" dateMin="2000-01-01" dateMax="2050-01-01" />
-      </Wrapper>
-    );
+    const wrapper = mount(<DatePicker htmlId="unique" dateMin="2000-01-01" dateMax="2050-01-01" />);
     wrapper.find('input').simulate('focus');
     wrapper.find('input').simulate('change', {
       target: { value: '4 july 2018' }

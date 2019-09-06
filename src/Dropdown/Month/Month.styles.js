@@ -1,9 +1,8 @@
-export default ({ datepickerReact }) => ({
+export default {
   calendar: {
     borderCollapse: 'collapse',
-    fontFamily: datepickerReact.fontFamily,
+    fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
     margin: 0,
-    ...datepickerReact.cellsWrap,
     '& td': {
       padding: 0,
       margin: 0,
@@ -11,7 +10,7 @@ export default ({ datepickerReact }) => ({
     }
   },
   headerCell: {
-    color: datepickerReact.text,
+    color: '#333333',
     cursor: 'default',
     fontSize: 10,
     fontWeight: 'bold',
@@ -23,13 +22,13 @@ export default ({ datepickerReact }) => ({
     width: 27
   },
   weekHeader: {
-    color: datepickerReact.weekHeader
+    color: '#e0e0e0'
   },
   weekCell: {
     background: 'transparent',
     border: 0,
     cursor: 'default',
-    fontFamily: datepickerReact.fontFamily,
+    fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
     padding: 4,
     width: '100%',
     '& span': {
@@ -39,7 +38,9 @@ export default ({ datepickerReact }) => ({
       margin: '0 auto',
       textAlign: 'center',
       width: 25,
-      ...datepickerReact.weekNumber
+      fontSize: 16,
+      color: '#e0e0e0',
+      lineHeight: '26px'
     }
   }
-});
+};

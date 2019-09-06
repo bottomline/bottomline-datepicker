@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React from 'react';
 import moment from 'moment';
@@ -100,4 +100,4 @@ Day.defaultProps = {
   selectedEndDate: undefined
 };
 
-export default withTheme(withStyles(styles)(Day));
+export default injectSheet(styles)(Day);

@@ -1,11 +1,11 @@
-export default ({ datepickerReact }) => ({
+export default {
   cellButton: {
     boxSizing: 'border-box',
     background: 'transparent',
     border: 0,
-    color: datepickerReact.text,
+    color: '#333333',
     cursor: 'pointer',
-    fontFamily: datepickerReact.fontFamily,
+    fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
     padding: 0,
     margin: 0,
     width: 40,
@@ -15,26 +15,39 @@ export default ({ datepickerReact }) => ({
     '& span': {
       boxSizing: 'border-box',
       display: 'block',
-      borderRadius: datepickerReact.dayBorderRadius,
+      borderRadius: 100,
       margin: '0 auto',
       textAlign: 'center',
-      ...datepickerReact.cellButtonSpan
+      width: 26,
+      height: 26,
+      lineHeight: '28px',
+      fontSize: 16
     },
     '&:hover span': {
-      background: datepickerReact.dayHoverBackground,
-      borderRadius: datepickerReact.dayBorderRadius
+      background: '#f5f5f5',
+      borderRadius: 100
     }
   },
   isToday: {
     position: 'relative',
     fontWeight: 'bold',
-    ...datepickerReact.isToday
+    '&::before': {
+      content: '""',
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      width: 24,
+      height: 24,
+      boxShadow: `0 0 0 1px ${'#0070B9'}`,
+      borderRadius: '50%'
+    }
   },
   selected: {
     '& span, &:hover span': {
-      background: datepickerReact.selected,
-      borderRadius: datepickerReact.dayBorderRadius,
-      color: datepickerReact.selectedText
+      background: '#0070B9',
+      borderRadius: 100,
+      color: '#FFFFFF'
     }
   },
   selectStart: {
@@ -43,7 +56,7 @@ export default ({ datepickerReact }) => ({
       zIndex: -1
     },
     '& span, &:hover span': {
-      borderRadius: [datepickerReact.dayBorderRadius, 0, 0, datepickerReact.dayBorderRadius],
+      borderRadius: [100, 0, 0, 100],
       width: 34,
       marginLeft: 6,
       paddingRight: 6
@@ -55,7 +68,7 @@ export default ({ datepickerReact }) => ({
       zIndex: -1
     },
     '& span, &:hover span': {
-      borderRadius: [0, datepickerReact.dayBorderRadius, datepickerReact.dayBorderRadius, 0],
+      borderRadius: [0, 100, 100, 0],
       width: 34,
       marginRight: 6,
       paddingLeft: 6
@@ -65,14 +78,14 @@ export default ({ datepickerReact }) => ({
     '& span, &:hover span': {
       borderRadius: 0,
       width: '100%',
-      background: datepickerReact.inRangeBackground,
-      ...datepickerReact.period
+      background: '#cbe4ff',
+      margin: [4, 'auto']
     }
   },
   disabled: {
     cursor: 'default',
     '& span': {
-      color: datepickerReact.disabledDate
+      color: 'rgba(0,0,0,0.1)'
     }
   },
   hidden: {
@@ -83,4 +96,4 @@ export default ({ datepickerReact }) => ({
       background: 'transparent'
     }
   }
-});
+};

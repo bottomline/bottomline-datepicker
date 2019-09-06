@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styles from './StyledSelect.styles.js';
@@ -16,4 +16,4 @@ StyledSelect.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-export default withTheme(withStyles(styles)(StyledSelect));
+export default injectSheet(styles)(StyledSelect);

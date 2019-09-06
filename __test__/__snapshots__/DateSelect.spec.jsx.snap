@@ -2,123 +2,105 @@
 
 exports[`DateSelect should navigate unlinked months independently 1`] = `
 <div
-  class="DateSelect-dropdown-0-1-33 false"
+  class="DateSelect-dropdown-0-1-18 false"
   data-qa="date-select"
 >
   <div
-    class="DateSelect-calendars-0-1-35"
+    class="DateSelect-calendars-0-1-20"
   >
     <div
-      class="DateSelect-calendar-0-1-36"
+      class="DateSelect-calendar-0-1-21"
       data-qa="first-calendar"
     >
       <div
-        class="MonthNav-header-0-1-38"
+        class="MonthNav-header-0-1-23"
       >
         <button
-          class="MonthNav-button-0-1-41 MonthNav-prev-0-1-42"
+          class="MonthNav-button-0-1-26 MonthNav-prev-0-1-27"
           data-qa="previous-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Previous Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-left
-      Icon-icon-0-1-16 Icon-icon-0-1-167"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M2.8 7.8l6.4 6.4-1.4 1.4L0 7.8 7.8 0l1.4 1.4-6.4 6.4z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Previous Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
         <div
-          class="MonthNav-title-0-1-40"
+          class="MonthNav-title-0-1-25"
         >
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             June
           </div>
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             2018
           </div>
         </div>
         <button
-          class="MonthNav-button-0-1-41 MonthNav-next-0-1-43"
+          class="MonthNav-button-0-1-26 MonthNav-next-0-1-28"
           data-qa="next-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Next Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-right
-      Icon-icon-0-1-16 Icon-icon-0-1-168"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M6.4 7.8L0 1.4 1.4 0l7.8 7.8-7.8 7.8L0 14.1l6.4-6.3z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Next Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
       </div>
       <table
-        class="Month-calendar-0-1-47"
+        class="Month-calendar-0-1-30"
       >
         <thead>
           <tr>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               M
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               W
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               F
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
@@ -130,7 +112,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-27"
                 disabled=""
                 type="button"
@@ -144,7 +126,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-28"
                 disabled=""
                 type="button"
@@ -158,7 +140,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-29"
                 disabled=""
                 type="button"
@@ -172,7 +154,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-30"
                 disabled=""
                 type="button"
@@ -186,7 +168,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-31"
                 disabled=""
                 type="button"
@@ -200,7 +182,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-01"
                 type="button"
               >
@@ -213,7 +195,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-02"
                 type="button"
               >
@@ -228,7 +210,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-03"
                 type="button"
               >
@@ -241,7 +223,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-04"
                 type="button"
               >
@@ -254,7 +236,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-05"
                 type="button"
               >
@@ -267,7 +249,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-06"
                 type="button"
               >
@@ -280,7 +262,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-07"
                 type="button"
               >
@@ -293,7 +275,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-selected-0-1-55 Day-selectEnd-0-1-57"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
                 data-qa="calendar-day-2018-06-08"
                 type="button"
               >
@@ -306,7 +288,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-09"
                 type="button"
               >
@@ -321,7 +303,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-10"
                 type="button"
               >
@@ -334,7 +316,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-11"
                 type="button"
               >
@@ -347,7 +329,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-12"
                 type="button"
               >
@@ -360,7 +342,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-13"
                 type="button"
               >
@@ -373,7 +355,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-14"
                 type="button"
               >
@@ -386,7 +368,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-15"
                 type="button"
               >
@@ -399,7 +381,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-16"
                 type="button"
               >
@@ -414,7 +396,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-17"
                 type="button"
               >
@@ -427,7 +409,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-18"
                 type="button"
               >
@@ -440,7 +422,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-19"
                 type="button"
               >
@@ -453,7 +435,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-20"
                 type="button"
               >
@@ -466,7 +448,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-21"
                 type="button"
               >
@@ -479,7 +461,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-22"
                 type="button"
               >
@@ -492,7 +474,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-23"
                 type="button"
               >
@@ -507,7 +489,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-24"
                 type="button"
               >
@@ -520,7 +502,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-25"
                 type="button"
               >
@@ -533,7 +515,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-26"
                 type="button"
               >
@@ -546,7 +528,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-27"
                 type="button"
               >
@@ -559,7 +541,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-28"
                 type="button"
               >
@@ -572,7 +554,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-29"
                 type="button"
               >
@@ -585,7 +567,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-30"
                 type="button"
               >
@@ -599,116 +581,98 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
       </table>
     </div>
     <div
-      class="DateSelect-calendar-0-1-36"
+      class="DateSelect-calendar-0-1-21"
       data-qa="middle-calendar"
     >
       <div
-        class="MonthNav-header-0-1-38"
+        class="MonthNav-header-0-1-23"
       >
         <button
-          class="MonthNav-button-0-1-41 MonthNav-prev-0-1-42"
+          class="MonthNav-button-0-1-26 MonthNav-prev-0-1-27"
           data-qa="previous-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Previous Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-left
-      Icon-icon-0-1-16 Icon-icon-0-1-169"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M2.8 7.8l6.4 6.4-1.4 1.4L0 7.8 7.8 0l1.4 1.4-6.4 6.4z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Previous Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
         <div
-          class="MonthNav-title-0-1-40"
+          class="MonthNav-title-0-1-25"
         >
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             June
           </div>
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             2018
           </div>
         </div>
         <button
-          class="MonthNav-button-0-1-41 MonthNav-next-0-1-43"
+          class="MonthNav-button-0-1-26 MonthNav-next-0-1-28"
           data-qa="next-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Next Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-right
-      Icon-icon-0-1-16 Icon-icon-0-1-170"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M6.4 7.8L0 1.4 1.4 0l7.8 7.8-7.8 7.8L0 14.1l6.4-6.3z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Next Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
       </div>
       <table
-        class="Month-calendar-0-1-47"
+        class="Month-calendar-0-1-30"
       >
         <thead>
           <tr>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               M
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               W
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               F
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
@@ -720,7 +684,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-27"
                 disabled=""
                 type="button"
@@ -734,7 +698,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-28"
                 disabled=""
                 type="button"
@@ -748,7 +712,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-29"
                 disabled=""
                 type="button"
@@ -762,7 +726,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-30"
                 disabled=""
                 type="button"
@@ -776,7 +740,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-05-31"
                 disabled=""
                 type="button"
@@ -790,7 +754,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-01"
                 type="button"
               >
@@ -803,7 +767,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-02"
                 type="button"
               >
@@ -818,7 +782,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-03"
                 type="button"
               >
@@ -831,7 +795,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-04"
                 type="button"
               >
@@ -844,7 +808,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-05"
                 type="button"
               >
@@ -857,7 +821,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-06"
                 type="button"
               >
@@ -870,7 +834,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-06-07"
                 type="button"
               >
@@ -883,7 +847,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-selected-0-1-55 Day-selectEnd-0-1-57"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
                 data-qa="calendar-day-2018-06-08"
                 type="button"
               >
@@ -896,7 +860,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-09"
                 type="button"
               >
@@ -911,7 +875,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-10"
                 type="button"
               >
@@ -924,7 +888,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-11"
                 type="button"
               >
@@ -937,7 +901,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-12"
                 type="button"
               >
@@ -950,7 +914,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-13"
                 type="button"
               >
@@ -963,7 +927,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-14"
                 type="button"
               >
@@ -976,7 +940,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-15"
                 type="button"
               >
@@ -989,7 +953,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-16"
                 type="button"
               >
@@ -1004,7 +968,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-17"
                 type="button"
               >
@@ -1017,7 +981,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-18"
                 type="button"
               >
@@ -1030,7 +994,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-19"
                 type="button"
               >
@@ -1043,7 +1007,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-20"
                 type="button"
               >
@@ -1056,7 +1020,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-21"
                 type="button"
               >
@@ -1069,7 +1033,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-22"
                 type="button"
               >
@@ -1082,7 +1046,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-23"
                 type="button"
               >
@@ -1097,7 +1061,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-24"
                 type="button"
               >
@@ -1110,7 +1074,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-25"
                 type="button"
               >
@@ -1123,7 +1087,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-26"
                 type="button"
               >
@@ -1136,7 +1100,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-27"
                 type="button"
               >
@@ -1149,7 +1113,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-28"
                 type="button"
               >
@@ -1162,7 +1126,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-29"
                 type="button"
               >
@@ -1175,7 +1139,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-06-30"
                 type="button"
               >
@@ -1189,116 +1153,98 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
       </table>
     </div>
     <div
-      class="DateSelect-calendar-0-1-36"
+      class="DateSelect-calendar-0-1-21"
       data-qa="last-calendar"
     >
       <div
-        class="MonthNav-header-0-1-38"
+        class="MonthNav-header-0-1-23"
       >
         <button
-          class="MonthNav-button-0-1-41 MonthNav-prev-0-1-42"
+          class="MonthNav-button-0-1-26 MonthNav-prev-0-1-27"
           data-qa="previous-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Previous Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-left
-      Icon-icon-0-1-16 Icon-icon-0-1-171"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M2.8 7.8l6.4 6.4-1.4 1.4L0 7.8 7.8 0l1.4 1.4-6.4 6.4z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Previous Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
         <div
-          class="MonthNav-title-0-1-40"
+          class="MonthNav-title-0-1-25"
         >
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             July
           </div>
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             2018
           </div>
         </div>
         <button
-          class="MonthNav-button-0-1-41 MonthNav-next-0-1-43"
+          class="MonthNav-button-0-1-26 MonthNav-next-0-1-28"
           data-qa="next-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Next Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-right
-      Icon-icon-0-1-16 Icon-icon-0-1-172"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M6.4 7.8L0 1.4 1.4 0l7.8 7.8-7.8 7.8L0 14.1l6.4-6.3z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Next Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
       </div>
       <table
-        class="Month-calendar-0-1-47"
+        class="Month-calendar-0-1-30"
       >
         <thead>
           <tr>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               M
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               W
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               F
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
@@ -1310,7 +1256,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-01"
                 type="button"
               >
@@ -1323,7 +1269,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-02"
                 type="button"
               >
@@ -1336,7 +1282,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-03"
                 type="button"
               >
@@ -1349,7 +1295,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-04"
                 type="button"
               >
@@ -1362,7 +1308,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-05"
                 type="button"
               >
@@ -1375,7 +1321,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-06"
                 type="button"
               >
@@ -1388,7 +1334,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-07"
                 type="button"
               >
@@ -1403,7 +1349,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-08"
                 type="button"
               >
@@ -1416,7 +1362,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-09"
                 type="button"
               >
@@ -1429,7 +1375,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-10"
                 type="button"
               >
@@ -1442,7 +1388,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-11"
                 type="button"
               >
@@ -1455,7 +1401,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-12"
                 type="button"
               >
@@ -1468,7 +1414,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-13"
                 type="button"
               >
@@ -1481,7 +1427,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-14"
                 type="button"
               >
@@ -1496,7 +1442,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-15"
                 type="button"
               >
@@ -1509,7 +1455,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-16"
                 type="button"
               >
@@ -1522,7 +1468,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-17"
                 type="button"
               >
@@ -1535,7 +1481,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-18"
                 type="button"
               >
@@ -1548,7 +1494,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-19"
                 type="button"
               >
@@ -1561,7 +1507,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-20"
                 type="button"
               >
@@ -1574,7 +1520,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-21"
                 type="button"
               >
@@ -1589,7 +1535,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-22"
                 type="button"
               >
@@ -1602,7 +1548,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-23"
                 type="button"
               >
@@ -1615,7 +1561,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-24"
                 type="button"
               >
@@ -1628,7 +1574,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-25"
                 type="button"
               >
@@ -1641,7 +1587,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-26"
                 type="button"
               >
@@ -1654,7 +1600,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-27"
                 type="button"
               >
@@ -1667,7 +1613,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-28"
                 type="button"
               >
@@ -1682,7 +1628,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-29"
                 type="button"
               >
@@ -1695,7 +1641,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-30"
                 type="button"
               >
@@ -1708,7 +1654,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-07-31"
                 type="button"
               >
@@ -1721,7 +1667,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-08-01"
                 disabled=""
                 type="button"
@@ -1735,7 +1681,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-08-02"
                 disabled=""
                 type="button"
@@ -1749,7 +1695,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-08-03"
                 disabled=""
                 type="button"
@@ -1763,7 +1709,7 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-08-04"
                 disabled=""
                 type="button"
@@ -1779,20 +1725,20 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
     </div>
   </div>
   <div
-    class="DateSelect-row-0-1-37"
+    class="DateSelect-row-0-1-22"
   >
     <div
-      class="Actions-actions-0-1-61 "
+      class="undefined "
     >
       <button
-        class="BareButton-root-0-1-63 BareButton-root-0-1-173 BareButton-primary-0-1-67 BareButton-small-0-1-65 "
+        class="Actions-applyButton-0-1-44  "
         data-qa="apply-button"
         type="button"
       >
         Apply
       </button>
       <button
-        class="Actions-cancelButton-0-1-62 "
+        class="Actions-cancelButton-0-1-45 "
         data-qa="cancel-button"
         type="button"
       >
@@ -1805,123 +1751,105 @@ exports[`DateSelect should navigate unlinked months independently 1`] = `
 
 exports[`DateSelect should not show range on hover after workflow is complete 1`] = `
 <div
-  class="DateSelect-dropdown-0-1-33 false"
+  class="DateSelect-dropdown-0-1-18 false"
   data-qa="date-select"
 >
   <div
-    class="DateSelect-calendars-0-1-35"
+    class="DateSelect-calendars-0-1-20"
   >
     <div
-      class="DateSelect-calendar-0-1-36"
+      class="DateSelect-calendar-0-1-21"
       data-qa="first-calendar"
     >
       <div
-        class="MonthNav-header-0-1-38"
+        class="MonthNav-header-0-1-23"
       >
         <button
-          class="MonthNav-button-0-1-41 MonthNav-prev-0-1-42"
+          class="MonthNav-button-0-1-26 MonthNav-prev-0-1-27"
           data-qa="previous-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Previous Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-left
-      Icon-icon-0-1-16 Icon-icon-0-1-77"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M2.8 7.8l6.4 6.4-1.4 1.4L0 7.8 7.8 0l1.4 1.4-6.4 6.4z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Previous Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
         <div
-          class="MonthNav-title-0-1-40"
+          class="MonthNav-title-0-1-25"
         >
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             Mar
           </div>
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             2018
           </div>
         </div>
         <button
-          class="MonthNav-button-0-1-41 MonthNav-next-0-1-43"
+          class="MonthNav-button-0-1-26 MonthNav-next-0-1-28"
           data-qa="next-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Next Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-right
-      Icon-icon-0-1-16 Icon-icon-0-1-78"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M6.4 7.8L0 1.4 1.4 0l7.8 7.8-7.8 7.8L0 14.1l6.4-6.3z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Next Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
       </div>
       <table
-        class="Month-calendar-0-1-47"
+        class="Month-calendar-0-1-30"
       >
         <thead>
           <tr>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               M
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               W
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               F
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
@@ -1933,7 +1861,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-25"
                 disabled=""
                 type="button"
@@ -1947,7 +1875,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-26"
                 disabled=""
                 type="button"
@@ -1961,7 +1889,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-27"
                 disabled=""
                 type="button"
@@ -1975,7 +1903,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-28"
                 disabled=""
                 type="button"
@@ -1989,7 +1917,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-01"
                 type="button"
               >
@@ -2002,7 +1930,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-02"
                 type="button"
               >
@@ -2015,7 +1943,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-03"
                 type="button"
               >
@@ -2030,7 +1958,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-04"
                 type="button"
               >
@@ -2043,7 +1971,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-05"
                 type="button"
               >
@@ -2056,7 +1984,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-06"
                 type="button"
               >
@@ -2069,7 +1997,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-07"
                 type="button"
               >
@@ -2082,7 +2010,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-08"
                 type="button"
               >
@@ -2095,7 +2023,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-09"
                 type="button"
               >
@@ -2108,7 +2036,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-10"
                 type="button"
               >
@@ -2123,7 +2051,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-11"
                 type="button"
               >
@@ -2136,7 +2064,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-12"
                 type="button"
               >
@@ -2149,7 +2077,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-13"
                 type="button"
               >
@@ -2162,7 +2090,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-14"
                 type="button"
               >
@@ -2175,7 +2103,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-15"
                 type="button"
               >
@@ -2188,7 +2116,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-16"
                 type="button"
               >
@@ -2201,7 +2129,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-17"
                 type="button"
               >
@@ -2216,7 +2144,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-18"
                 type="button"
               >
@@ -2229,7 +2157,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-19"
                 type="button"
               >
@@ -2242,7 +2170,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-selected-0-1-55 Day-selectStart-0-1-56"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
                 data-qa="calendar-day-2018-03-20"
                 type="button"
               >
@@ -2255,7 +2183,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-03-21"
                 type="button"
               >
@@ -2268,7 +2196,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-selected-0-1-55 Day-selectEnd-0-1-57"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
                 data-qa="calendar-day-2018-03-22"
                 type="button"
               >
@@ -2281,7 +2209,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-23"
                 type="button"
               >
@@ -2294,7 +2222,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-24"
                 type="button"
               >
@@ -2309,7 +2237,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-25"
                 type="button"
               >
@@ -2322,7 +2250,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-26"
                 type="button"
               >
@@ -2335,7 +2263,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-27"
                 type="button"
               >
@@ -2348,7 +2276,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-28"
                 type="button"
               >
@@ -2361,7 +2289,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-29"
                 type="button"
               >
@@ -2374,7 +2302,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-30"
                 type="button"
               >
@@ -2387,7 +2315,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-31"
                 type="button"
               >
@@ -2402,20 +2330,20 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
     </div>
   </div>
   <div
-    class="DateSelect-row-0-1-37"
+    class="DateSelect-row-0-1-22"
   >
     <div
-      class="Actions-actions-0-1-61 "
+      class="undefined "
     >
       <button
-        class="BareButton-root-0-1-63 BareButton-root-0-1-79 BareButton-primary-0-1-67 BareButton-small-0-1-65 "
+        class="Actions-applyButton-0-1-44  "
         data-qa="apply-button"
         type="button"
       >
         Apply
       </button>
       <button
-        class="Actions-cancelButton-0-1-62 "
+        class="Actions-cancelButton-0-1-45 "
         data-qa="cancel-button"
         type="button"
       >
@@ -2430,123 +2358,105 @@ exports[`DateSelect should restart range if one already selected 1`] = `"15 Mar 
 
 exports[`DateSelect should show range on hover 1`] = `
 <div
-  class="DateSelect-dropdown-0-1-33 false"
+  class="DateSelect-dropdown-0-1-18 false"
   data-qa="date-select"
 >
   <div
-    class="DateSelect-calendars-0-1-35"
+    class="DateSelect-calendars-0-1-20"
   >
     <div
-      class="DateSelect-calendar-0-1-36"
+      class="DateSelect-calendar-0-1-21"
       data-qa="first-calendar"
     >
       <div
-        class="MonthNav-header-0-1-38"
+        class="MonthNav-header-0-1-23"
       >
         <button
-          class="MonthNav-button-0-1-41 MonthNav-prev-0-1-42"
+          class="MonthNav-button-0-1-26 MonthNav-prev-0-1-27"
           data-qa="previous-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Previous Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-left
-      Icon-icon-0-1-16 Icon-icon-0-1-45"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M2.8 7.8l6.4 6.4-1.4 1.4L0 7.8 7.8 0l1.4 1.4-6.4 6.4z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Previous Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
         <div
-          class="MonthNav-title-0-1-40"
+          class="MonthNav-title-0-1-25"
         >
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             Mar
           </div>
           <div
-            class="MonthNav-select-0-1-44"
+            class="MonthNav-select-0-1-29"
           >
             2018
           </div>
         </div>
         <button
-          class="MonthNav-button-0-1-41 MonthNav-next-0-1-43"
+          class="MonthNav-button-0-1-26 MonthNav-next-0-1-28"
           data-qa="next-button"
           type="button"
         >
           <p
-            class="AccessibilityText-root-0-1-15"
+            class="AccessibilityText-root-0-1-5"
           >
             Next Month
           </p>
-          <div
-            class="Icon-iconWrapper-0-1-17"
-          >
-            <svg
-              class="icon-caret-right
-      Icon-icon-0-1-16 Icon-icon-0-1-46"
-              viewBox="0 0 9.2 15.6"
-            >
-              <title />
-              <path
-                d="M6.4 7.8L0 1.4 1.4 0l7.8 7.8-7.8 7.8L0 14.1l6.4-6.3z"
-              />
-            </svg>
-            
-          </div>
+          <img
+            alt="Next Month"
+            height="16"
+            src="test-file-stub"
+            width="16"
+          />
         </button>
       </div>
       <table
-        class="Month-calendar-0-1-47"
+        class="Month-calendar-0-1-30"
       >
         <thead>
           <tr>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               M
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               W
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               T
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               F
             </td>
             <td
-              class="WeekDays-headerCell-0-1-51"
+              class="WeekDays-headerCell-0-1-34"
             >
               S
             </td>
@@ -2558,7 +2468,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-25"
                 disabled=""
                 type="button"
@@ -2572,7 +2482,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-26"
                 disabled=""
                 type="button"
@@ -2586,7 +2496,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-27"
                 disabled=""
                 type="button"
@@ -2600,7 +2510,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-disabled-0-1-59 Day-hidden-0-1-60"
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
                 data-qa="calendar-day-2018-02-28"
                 disabled=""
                 type="button"
@@ -2614,7 +2524,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-01"
                 type="button"
               >
@@ -2627,7 +2537,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-02"
                 type="button"
               >
@@ -2640,7 +2550,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-03"
                 type="button"
               >
@@ -2655,7 +2565,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-04"
                 type="button"
               >
@@ -2668,7 +2578,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-05"
                 type="button"
               >
@@ -2681,7 +2591,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-06"
                 type="button"
               >
@@ -2694,7 +2604,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-07"
                 type="button"
               >
@@ -2707,7 +2617,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-08"
                 type="button"
               >
@@ -2720,7 +2630,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-09"
                 type="button"
               >
@@ -2733,7 +2643,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-10"
                 type="button"
               >
@@ -2748,7 +2658,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-11"
                 type="button"
               >
@@ -2761,7 +2671,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-12"
                 type="button"
               >
@@ -2774,7 +2684,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-13"
                 type="button"
               >
@@ -2787,7 +2697,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-14"
                 type="button"
               >
@@ -2800,7 +2710,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-15"
                 type="button"
               >
@@ -2813,7 +2723,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-16"
                 type="button"
               >
@@ -2826,7 +2736,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-17"
                 type="button"
               >
@@ -2841,7 +2751,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-18"
                 type="button"
               >
@@ -2854,7 +2764,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-19"
                 type="button"
               >
@@ -2867,7 +2777,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-selected-0-1-55 Day-selectStart-0-1-56"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
                 data-qa="calendar-day-2018-03-20"
                 type="button"
               >
@@ -2880,7 +2790,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-inRange-0-1-58"
+                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                 data-qa="calendar-day-2018-03-21"
                 type="button"
               >
@@ -2893,7 +2803,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53 Day-selected-0-1-55 Day-selectEnd-0-1-57"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
                 data-qa="calendar-day-2018-03-22"
                 type="button"
               >
@@ -2906,7 +2816,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-23"
                 type="button"
               >
@@ -2919,7 +2829,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-24"
                 type="button"
               >
@@ -2934,7 +2844,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-25"
                 type="button"
               >
@@ -2947,7 +2857,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-26"
                 type="button"
               >
@@ -2960,7 +2870,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-27"
                 type="button"
               >
@@ -2973,7 +2883,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-28"
                 type="button"
               >
@@ -2986,7 +2896,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-29"
                 type="button"
               >
@@ -2999,7 +2909,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-30"
                 type="button"
               >
@@ -3012,7 +2922,7 @@ exports[`DateSelect should show range on hover 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-53"
+                class="Day-cellButton-0-1-36"
                 data-qa="calendar-day-2018-03-31"
                 type="button"
               >
@@ -3027,20 +2937,20 @@ exports[`DateSelect should show range on hover 1`] = `
     </div>
   </div>
   <div
-    class="DateSelect-row-0-1-37"
+    class="DateSelect-row-0-1-22"
   >
     <div
-      class="Actions-actions-0-1-61 "
+      class="undefined "
     >
       <button
-        class="BareButton-root-0-1-63 BareButton-root-0-1-70 BareButton-primary-0-1-67 BareButton-small-0-1-65 "
+        class="Actions-applyButton-0-1-44  "
         data-qa="apply-button"
         type="button"
       >
         Apply
       </button>
       <button
-        class="Actions-cancelButton-0-1-62 "
+        class="Actions-cancelButton-0-1-45 "
         data-qa="cancel-button"
         type="button"
       >

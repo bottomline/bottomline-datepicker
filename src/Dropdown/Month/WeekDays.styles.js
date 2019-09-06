@@ -1,6 +1,6 @@
-export default ({ datepickerReact }) => ({
+export default {
   headerCell: {
-    color: datepickerReact.text,
+    color: '#333333',
     cursor: 'default',
     fontWeight: 'bold',
     height: 16,
@@ -9,9 +9,9 @@ export default ({ datepickerReact }) => ({
     textAlign: 'center',
     textTransform: 'uppercase',
     width: 27,
-    ...datepickerReact.dayNames
+    fontSize: 10
   },
   weekHeader: {
-    color: datepickerReact.weekNumber
+    color: '#e0e0e0'
   }
-});
+};

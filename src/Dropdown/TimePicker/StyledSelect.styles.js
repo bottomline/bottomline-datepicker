@@ -1,4 +1,4 @@
-export default ({ datepickerReact, typography }) => ({
+export default {
   wrapper: {
     borderRadius: 2,
     boxSizing: 'border-box',
@@ -6,7 +6,8 @@ export default ({ datepickerReact, typography }) => ({
     height: 28,
     marginRight: 1,
     position: 'relative',
-    ...datepickerReact.timepickerWrapper,
+    border: `1px solid ${'#CCCCCC'}`,
+    backgroundColor: '#FFFFFF',
     '& select': {
       position: 'relative',
       zIndex: 1,
@@ -20,7 +21,7 @@ export default ({ datepickerReact, typography }) => ({
       boxSizing: 'border-box',
       lineHeight: '28px',
       fontSize: 14,
-      fontFamily: typography.fontFamily,
+      fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
       width: '100%',
       height: '100%',
       '&::-moz-focus-inner': {
@@ -34,4 +35,4 @@ export default ({ datepickerReact, typography }) => ({
       }
     }
   }
-});
+};

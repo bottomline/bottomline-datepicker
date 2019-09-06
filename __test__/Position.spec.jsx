@@ -1,19 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { mount } from 'enzyme';
-import { nextTheme, ThemeProvider } from '@glu/theming';
 import Position from '../src/Dropdown/Position';
-import '../src/themeDefaults';
-
-const Wrapper = ({ children }) => (
-  <ThemeProvider baseTheme={nextTheme}>
-    {children}
-  </ThemeProvider>
-);
-
-Wrapper.propTypes = {
-  children: PropTypes.node.isRequired
-};
 
 describe('Position', () => {
   afterEach(() => {
@@ -32,20 +19,18 @@ describe('Position', () => {
       right: 0
     }));
     const wrapper = mount(
-      <Wrapper>
-        <div style={{
-          position: 'absolute',
-          bottom: 0,
-          left: 0,
-          top: 'auto',
-          right: 'auto'
-        }}
-        >
-          <Position screenReaderLabel>
-            <div>Children</div>
-          </Position>
-        </div>
-      </Wrapper>
+      <div style={{
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        top: 'auto',
+        right: 'auto'
+      }}
+      >
+        <Position screenReaderLabel>
+          <div>Children</div>
+        </Position>
+      </div>
     );
     expect(wrapper.find('[data-qa="dropdown-position"]')).toMatchSnapshot();
   });
@@ -62,20 +47,18 @@ describe('Position', () => {
       right: 0
     }));
     const wrapper = mount(
-      <Wrapper>
-        <div style={{
-          position: 'absolute',
-          bottom: 0,
-          left: 0,
-          top: 'auto',
-          right: 'auto'
-        }}
-        >
-          <Position screenReaderLabel>
-            <div>Children</div>
-          </Position>
-        </div>
-      </Wrapper>
+      <div style={{
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        top: 'auto',
+        right: 'auto'
+      }}
+      >
+        <Position screenReaderLabel>
+          <div>Children</div>
+        </Position>
+      </div>
     );
     expect(wrapper.find('[data-qa="dropdown-position"]')).toMatchSnapshot();
   });

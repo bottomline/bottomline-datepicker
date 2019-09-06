@@ -1,20 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { mount } from 'enzyme';
 
-import { nextTheme, ThemeProvider } from '@glu/theming';
 import DatePicker from '../src/DatePicker';
-import '../src/themeDefaults';
-
-const Wrapper = ({ children }) => (
-  <ThemeProvider baseTheme={nextTheme}>
-    {children}
-  </ThemeProvider>
-);
-
-Wrapper.propTypes = {
-  children: PropTypes.node.isRequired
-};
 
 describe('DateSelect', () => {
   afterEach(() => {
@@ -23,15 +10,13 @@ describe('DateSelect', () => {
 
   it('should show range on hover', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-03-26',
-            dateEnd: '2018-03-28'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-03-26',
+          dateEnd: '2018-03-28'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('[data-qa="calendar-day-2018-03-20"]').simulate('click');
@@ -41,15 +26,13 @@ describe('DateSelect', () => {
 
   it('should not show range on hover after workflow is complete', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-03-26',
-            dateEnd: '2018-03-28'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-03-26',
+          dateEnd: '2018-03-28'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('[data-qa="calendar-day-2018-03-20"]').simulate('click');
@@ -60,17 +43,15 @@ describe('DateSelect', () => {
 
   it('should restart range if one already selected', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-03-26',
-            dateEnd: '2018-03-28',
-            dateMin: '2018-03-03',
-            dateMax: '2018-08-29'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-03-26',
+          dateEnd: '2018-03-28',
+          dateMin: '2018-03-03',
+          dateMax: '2018-08-29'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('[data-qa="calendar-day-2018-03-20"]').simulate('click');
@@ -84,17 +65,15 @@ describe('DateSelect', () => {
 
   it('should change calendar position to selected month', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-05-06',
-            dateEnd: '2018-06-08',
-            yearDropdown: true,
-            monthDropdown: true
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-05-06',
+          dateEnd: '2018-06-08',
+          yearDropdown: true,
+          monthDropdown: true
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const currentPosition = wrapper.text().toLowerCase();
@@ -108,17 +87,15 @@ describe('DateSelect', () => {
 
   it('should change calendar position to selected year', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-05-06',
-            dateEnd: '2018-06-08',
-            yearDropdown: true,
-            monthDropdown: true
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-05-06',
+          dateEnd: '2018-06-08',
+          yearDropdown: true,
+          monthDropdown: true
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const currentPosition = wrapper.text().toLowerCase();
@@ -132,15 +109,13 @@ describe('DateSelect', () => {
 
   it('should change calendar position to next month', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-05-06',
-            dateEnd: '2018-06-08'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-05-06',
+          dateEnd: '2018-06-08'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const currentPosition = wrapper.text().toLowerCase();
@@ -153,17 +128,15 @@ describe('DateSelect', () => {
 
   it('should change calendar position to previous month', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-05-05',
-            dateEnd: '2018-05-08',
-            dateMin: '2018-03-03',
-            dateMax: '2018-08-29'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-05-05',
+          dateEnd: '2018-05-08',
+          dateMin: '2018-03-03',
+          dateMax: '2018-08-29'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const currentPosition = wrapper.text().toLowerCase();
@@ -176,16 +149,14 @@ describe('DateSelect', () => {
 
   it('should change multiple calendar position to next month', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            numberOfMonths: 2,
-            dateStart: '2018-05-06',
-            dateEnd: '2018-06-08'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          numberOfMonths: 2,
+          dateStart: '2018-05-06',
+          dateEnd: '2018-06-08'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const currentPosition = wrapper.text().toLowerCase();
@@ -198,18 +169,16 @@ describe('DateSelect', () => {
 
   it('should change multiple calendar position to previous month', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            numberOfMonths: 2,
-            dateStart: '2018-05-05',
-            dateEnd: '2018-05-08',
-            dateMin: '2018-03-03',
-            dateMax: '2018-08-29'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          numberOfMonths: 2,
+          dateStart: '2018-05-05',
+          dateEnd: '2018-05-08',
+          dateMin: '2018-03-03',
+          dateMax: '2018-08-29'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const currentPosition = wrapper.text().toLowerCase();
@@ -222,17 +191,15 @@ describe('DateSelect', () => {
 
   it('should navigate unlinked months independently', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            dateStart: '2018-05-06',
-            dateEnd: '2018-06-08',
-            numberOfMonths: 3,
-            linkedCalendars: false
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          dateStart: '2018-05-06',
+          dateEnd: '2018-06-08',
+          numberOfMonths: 3,
+          linkedCalendars: false
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     const next = wrapper.find('[data-qa="first-calendar"] [data-qa="next-button"]');

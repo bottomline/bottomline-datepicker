@@ -2,9 +2,17 @@ module.exports = {
   env: {
     browser: true
   },
-  extends: ['@glu/eslint-config'],
+  extends: ['airbnb'],
+  plugins: ['react-hooks'],
   parser: 'babel-eslint',
   rules: {
+    'arrow-parens': 'off',
+    'comma-dangle': ['error', 'never'],
+    'func-names': ['warn', 'as-needed'],
+    'func-style': 'off',
+    'no-nested-ternary': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'import/extensions': 'off',
     'react/destructuring-assignment': 'off',
     'quote-props': ["error", "as-needed"],

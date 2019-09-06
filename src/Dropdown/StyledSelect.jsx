@@ -1,7 +1,7 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
-import { CaretDownIcon } from '@glu/icons-react';
 import React from 'react';
+import CaretDownIcon from '../icons/caret-down.svg';
 import styles from './StyledSelect.styles';
 
 const StyledSelect = ({
@@ -10,9 +10,8 @@ const StyledSelect = ({
   <div className={classes.wrapper}>
     {children}
     <div className={classes.caret}>
-      <CaretDownIcon />
+      <img src={CaretDownIcon} alt="Down" width="16" height="16" />
     </div>
-
   </div>
 );
 
@@ -21,4 +20,4 @@ StyledSelect.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-export default withTheme(withStyles(styles)(StyledSelect));
+export default injectSheet(styles)(StyledSelect);

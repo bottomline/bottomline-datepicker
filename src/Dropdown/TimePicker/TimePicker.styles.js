@@ -1,4 +1,4 @@
-export default ({ datepickerReact }) => ({
+export default {
   timepicker: {
     float: 'right'
   },
@@ -7,6 +7,7 @@ export default ({ datepickerReact }) => ({
     fontWeight: 'bold',
     lineHeight: '16px',
     marginTop: 4,
-    ...datepickerReact.timepickerLabel
+    color: '#757575',
+    textTransform: 'uppercase'
   }
-});
+};

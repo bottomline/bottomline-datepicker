@@ -1,4 +1,4 @@
-export default ({ datepickerReact }) => ({
+export default {
   root: {
     padding: [10, 0]
   },
@@ -12,10 +12,10 @@ export default ({ datepickerReact }) => ({
     padding: [8, 14],
     fontSize: 14,
     lineHeight: '16px',
-    fontFamily: datepickerReact.fontFamily,
-    color: datepickerReact.text,
+    fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
+    color: '#333333',
     '&:hover': {
       textDecoration: 'underline'
     }
   }
-});
+};

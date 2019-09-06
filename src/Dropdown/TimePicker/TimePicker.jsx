@@ -1,8 +1,8 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
-import { AccessibilityText } from '@glu/utilities-react';
 import React, { useState } from 'react';
 import moment from 'moment';
+import AccessibilityText from '../../AccessibilityText';
 import { meridiemTo24Hour, meridiemLabelFromHour, twentyFourToMeridiem } from '../../utils/formatString.js';
 import StyledSelect from './StyledSelect';
 import styles from './TimePicker.styles';
@@ -186,4 +186,4 @@ TimePicker.defaultProps = {
 };
 
 
-export default withTheme(withStyles(styles)(TimePicker));
+export default injectSheet(styles)(TimePicker);

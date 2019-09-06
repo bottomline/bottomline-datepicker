@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import locale from '@glu/locale';
-import { AccessibilityText } from '@glu/utilities-react';
+import AccessibilityText from '../AccessibilityText';
+import localeGet from '../utils/locale.js';
 import StyledSelect from './StyledSelect';
 
 const SelectMonths = ({ onChange, head }) => {
@@ -18,7 +18,7 @@ const SelectMonths = ({ onChange, head }) => {
           value={selectedMonth}
         >
           {months.map(month => (
-            <option key={month} value={month}>{locale.get(month)}</option>
+            <option key={month} value={month}>{localeGet(month)}</option>
           ))}
         </select>
       </label>

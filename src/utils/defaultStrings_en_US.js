@@ -1,9 +1,5 @@
 /* istanbul ignore file */
 
-/**
- * Should have all locale keys used in this project with translations matching the language-region
- * code of this file.
- */
 export default {
   apply: 'Apply',
   cancel: 'Cancel',

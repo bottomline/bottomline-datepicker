@@ -1,20 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { mount } from 'enzyme';
-
-import { nextTheme, ThemeProvider } from '@glu/theming';
 import DatePicker from '../src/DatePicker';
-import '../src/themeDefaults';
-
-const Wrapper = ({ children }) => (
-  <ThemeProvider baseTheme={nextTheme}>
-    {children}
-  </ThemeProvider>
-);
-
-Wrapper.propTypes = {
-  children: PropTypes.node.isRequired
-};
 
 describe('TimePicker', () => {
   afterEach(() => {
@@ -23,18 +9,16 @@ describe('TimePicker', () => {
 
   it('should update input with single time', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            singleDatePicker: true,
-            timePicker: true,
-            timePickerSeconds: true,
-            dateStart: '2019-06-26',
-            dateEnd: '2019-06-27'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          singleDatePicker: true,
+          timePicker: true,
+          timePickerSeconds: true,
+          dateStart: '2019-06-26',
+          dateEnd: '2019-06-27'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('[data-qa="calendar-day-2019-06-11"]').simulate('click');
@@ -49,16 +33,14 @@ describe('TimePicker', () => {
 
   it('should disable timePicker selects when no dates are set', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            singleDatePicker: true,
-            timePicker: true,
-            timePickerSeconds: true
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          singleDatePicker: true,
+          timePicker: true,
+          timePickerSeconds: true
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('button[data-qa="apply-button"]').simulate('click');
@@ -70,17 +52,15 @@ describe('TimePicker', () => {
 
   it('should update input with time range', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            singleDatePicker: true,
-            timePickerRange: true,
-            dateStart: '2019-06-26',
-            dateEnd: '2019-06-27'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          singleDatePicker: true,
+          timePickerRange: true,
+          dateStart: '2019-06-26',
+          dateEnd: '2019-06-27'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('[data-qa="calendar-day-2019-06-11"]').simulate('click');
@@ -98,19 +78,17 @@ describe('TimePicker', () => {
 
   it('should format 24 hour time correctly', () => {
     const wrapper = mount(
-      <Wrapper>
-        <DatePicker
-          htmlId="unique"
-          {...{
-            singleDatePicker: true,
-            timePicker: true,
-            timePickerSeconds: true,
-            timePicker24Hour: true,
-            dateStart: '2019-06-26',
-            dateEnd: '2019-06-27'
-          }}
-        />
-      </Wrapper>
+      <DatePicker
+        htmlId="unique"
+        {...{
+          singleDatePicker: true,
+          timePicker: true,
+          timePickerSeconds: true,
+          timePicker24Hour: true,
+          dateStart: '2019-06-26',
+          dateEnd: '2019-06-27'
+        }}
+      />
     );
     wrapper.find('input').simulate('focus');
     wrapper.find('[data-qa="calendar-day-2019-06-11"]').simulate('click');

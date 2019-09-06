@@ -1,15 +1,14 @@
-import { Input } from '@glu/form-components';
-import { CaretDownIcon, CaretUpIcon, CalendarIcon } from '@glu/icons-react';
-import { AccessibilityText } from '@glu/utilities-react';
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import React from 'react';
+import AccessibilityText from './AccessibilityText';
+import CaretDownIcon from './icons/caret-down.svg';
+import CaretUpIcon from './icons/caret-up.svg';
 import { stringToDates } from './utils/formatString.js';
 import { isValidSelection } from './utils/dateCompare.js';
 import styles from './TextInput.styles';
 
 const TextInput = ({
-  theme,
   classes,
   dateMax,
   dateMin,
@@ -17,12 +16,10 @@ const TextInput = ({
   handleApply,
   htmlId,
   inputValue,
-  labelText,
   name,
   open,
   placeholder,
   rangeDelimiter,
-  screenReaderLabel,
   selectedEndDate,
   selectedStartDate,
   setHead,
@@ -69,45 +66,40 @@ const TextInput = ({
 
   return (
     <>
-      <Input
+      <input
         autoComplete="off"
-        className={classes.inputWrapper}
-        labelText={labelText}
-        screenReaderLabel={screenReaderLabel}
+        className={`${classes.input} ${classes.input}`}
         data-qa="text-input"
+        error={error}
+        id={`${htmlId}-text-input`}
+        name={name}
         onChange={handleInputChange}
         onFocus={() => { setOpen(true); }}
         onKeyPress={handleInputKeyPress}
+        placeholder={placeholder}
         type="text"
         value={inputValue}
-        placeholder={placeholder}
-        id={htmlId}
-        name={name}
-        error={error}
       />
       <button
         data-qa="toggle-button"
         id="toggle"
-        className={`${classes.toggle} ${(!labelText || screenReaderLabel) ? classes.screenReaderLabel : ''}`}
+        className={classes.toggle}
         type="button"
         onClick={handleToggleClick}
       >
         <AccessibilityText>Toggle Dropdown</AccessibilityText>
-        {theme.name === 'legacy'
-          ? <CalendarIcon className={classes.inputIcon} />
-          : (
-            open
-              ? <CaretUpIcon className={classes.inputIcon} />
-              : <CaretDownIcon className={classes.inputIcon} />
-          )
+        <div className={classes.inputIcon}>
+          {open
+            ? <img src={CaretUpIcon} alt="Toggle Icon" width="16" height="16" />
+            : <img src={CaretDownIcon} alt="Toggle Icon" width="16" height="16" />
           }
+        </div>
       </button>
     </>
   );
 };
 
 TextInput.propTypes = {
-  theme: PropTypes.shape({}),
   classes: PropTypes.shape({}).isRequired,
   dateMax: PropTypes.string.isRequired,
   dateMin: PropTypes.string.isRequired,
@@ -115,12 +107,10 @@ TextInput.propTypes = {
   handleApply: PropTypes.func.isRequired,
   htmlId: PropTypes.string.isRequired,
   inputValue: PropTypes.string.isRequired,
-  labelText: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   open: PropTypes.bool.isRequired,
   placeholder: PropTypes.string.isRequired,
   rangeDelimiter: PropTypes.string.isRequired,
-  screenReaderLabel: PropTypes.bool.isRequired,
   selectedEndDate: PropTypes.shape({}),
   selectedStartDate: PropTypes.shape({}),
   setHead: PropTypes.func.isRequired,
@@ -132,9 +122,8 @@ TextInput.propTypes = {
 };
 
 TextInput.defaultProps = {
-  theme: { name: 'ashTheme' },
   selectedStartDate: undefined,
   selectedEndDate: undefined
 };
 
-export default withTheme(withStyles(styles)(TextInput));
+export default injectSheet(styles)(TextInput);

@@ -1,12 +1,12 @@
-export default ({ datepickerReact, palette, typography }) => ({
+export default {
   wrapper: {
-    background: palette.background,
+    background: '#FFFFFF',
     boxSizing: 'border-box',
     borderRadius: 2,
     height: 34,
     position: 'relative',
     width: 75,
-    ...datepickerReact.monthYearDropdown,
+    border: `1px solid ${'#CCCCCC'}`,
     '& select': {
       position: 'relative',
       zIndex: 1,
@@ -20,7 +20,7 @@ export default ({ datepickerReact, palette, typography }) => ({
       boxSizing: 'border-box',
       lineHeight: '28px',
       fontSize: 14,
-      fontFamily: typography.fontFamily,
+      fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
       width: '100%',
       height: '100%',
       '&::-moz-focus-inner': {
@@ -45,8 +45,7 @@ export default ({ datepickerReact, palette, typography }) => ({
       top: '50%',
       left: '50%',
       margin: [-8, 0, 0, -7],
-      fill: palette.grey.G400,
-      ...datepickerReact.monthYearDropdownCaret
+      fill: '#bdbdbd'
     }
   }
-});
+};

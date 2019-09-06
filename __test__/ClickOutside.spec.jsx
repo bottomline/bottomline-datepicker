@@ -1,22 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
   mount
 } from 'enzyme';
-import {
-  nextTheme,
-  ThemeProvider
-} from '@glu/theming';
 import ClickOutside from '../src/ClickOutside';
-import '../src/themeDefaults';
-
-const Wrapper = ({
-  children
-}) => <ThemeProvider baseTheme={nextTheme}>{children}</ThemeProvider>;
-
-Wrapper.propTypes = {
-  children: PropTypes.node.isRequired
-};
 
 describe('ClickOutside', () => {
   afterEach(() => {
@@ -30,14 +16,12 @@ describe('ClickOutside', () => {
       map[event] = callback;
     });
     const wrapper = mount(
-      <Wrapper>
-        <div>
-          <div id="outside">Outside</div>
-          <ClickOutside onClickOutside={spy}>
-            <div>Inside</div>
-          </ClickOutside>
-        </div>
-      </Wrapper>
+      <div>
+        <div id="outside">Outside</div>
+        <ClickOutside onClickOutside={spy}>
+          <div>Inside</div>
+        </ClickOutside>
+      </div>
     );
     map.click({ target: wrapper.find('#outside') });
     expect(spy).toBeCalled();
@@ -50,14 +34,12 @@ describe('ClickOutside', () => {
       map[event] = callback;
     });
     const wrapper = mount(
-      <Wrapper>
-        <div>
-          <div id="outside">Outside</div>
-          <ClickOutside onClickOutside={spy}>
-            <div>Inside</div>
-          </ClickOutside>
-        </div>
-      </Wrapper>
+      <div>
+        <div id="outside">Outside</div>
+        <ClickOutside onClickOutside={spy}>
+          <div>Inside</div>
+        </ClickOutside>
+      </div>
     );
     map.keydown({ keyCode: 27, target: wrapper.find('#outside') });
     expect(spy).toBeCalled();
@@ -70,14 +52,12 @@ describe('ClickOutside', () => {
       map[event] = callback;
     });
     const wrapper = mount(
-      <Wrapper>
-        <div>
-          <div id="outside">Outside</div>
-          <ClickOutside onClickOutside={spy}>
-            <div>Inside</div>
-          </ClickOutside>
-        </div>
-      </Wrapper>
+      <div>
+        <div id="outside">Outside</div>
+        <ClickOutside onClickOutside={spy}>
+          <div>Inside</div>
+        </ClickOutside>
+      </div>
     );
     map.keydown({ keyCode: 1, target: wrapper.find('#outside') });
     expect(spy).not.toHaveBeenCalled();
@@ -90,14 +70,12 @@ describe('ClickOutside', () => {
       map[event] = callback;
     });
     const wrapper = mount(
-      <Wrapper>
-        <div>
-          <div>Outside</div>
-          <ClickOutside onClickOutside={spy}>
-            <div id="inside">Inside</div>
-          </ClickOutside>
-        </div>
-      </Wrapper>
+      <div>
+        <div>Outside</div>
+        <ClickOutside onClickOutside={spy}>
+          <div id="inside">Inside</div>
+        </ClickOutside>
+      </div>
     );
     map.click({ target: wrapper.find('inside') });
     expect(spy).not.toBeCalled();

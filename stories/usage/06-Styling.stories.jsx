@@ -10,7 +10,7 @@ const notes = `
   #Styling Options
 `;
 
-storiesOf('DatePicker.Usage.TimePicker', module)
+storiesOf('DatePicker.Usage.Styling', module)
   .addDecorator(
     withInfo({
       propTables: [BareDatePicker]
@@ -18,7 +18,7 @@ storiesOf('DatePicker.Usage.TimePicker', module)
   )
 
   .addDecorator(withStoryWrapper)
-  .add('auto position playground', () => (
+  .add('Position dropdown', () => (
     <div style={{
       position: 'absolute',
       bottom: text('bottom', '0'),
@@ -27,14 +27,16 @@ storiesOf('DatePicker.Usage.TimePicker', module)
       right: text('right', '0')
     }}
     >
-      <ExampleDatePicker
-        config={{
-          opens: text('opens', 'right'),
-          drops: text('drops', 'down')
-        }}
-      />
+      <ExampleDatePicker />
     </div>
   ), { notes: { markdown: notes } })
+  .add('getClassNamesForDate', () => (
+    <ExampleDatePicker
+      dateStart="2019-09-06"
+      dateEnd="2019-09-11"
+      getClassNamesForDate={(day) => (day.get('date') % 3 === 0 ? 'customDay' : '')}
+    />
+  ))
   .add('custom button classes', () => (
     <ExampleDatePicker
       buttonClasses="custom-both-buttons"

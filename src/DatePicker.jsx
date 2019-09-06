@@ -1,4 +1,4 @@
-import { withStyles, withTheme } from '@glu/theming';
+import injectSheet from 'react-jss';
 import moment from 'moment';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
@@ -7,7 +7,6 @@ import TextInput from './TextInput';
 import ClickOutside from './ClickOutside';
 import { datesToString } from './utils/formatString.js';
 import styles from './DatePicker.styles';
-import './themeDefaults';
 
 const DatePicker = ({
   classes,
@@ -112,7 +111,7 @@ DatePicker.propTypes = {
   /** Custom classes for the cancel button */
   cancelButtonClasses: PropTypes.string,
 
-  /** Classes provided by the theme */
+  /** Classes provided by injected styles */
   classes: PropTypes.shape({}).isRequired,
 
   /** Class passed to parent element for extra decoration. */
@@ -299,4 +298,4 @@ DatePicker.defaultProps = {
 };
 
 export const BareDatePicker = DatePicker;
-export default withTheme(withStyles(styles)(DatePicker));
+export default injectSheet(styles)(DatePicker);
