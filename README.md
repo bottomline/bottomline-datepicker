@@ -33,4 +33,4 @@ Follow the install instructions above, run npm run storybook, then goto http://l
 
 Modules's options are its props which are documented in all of the examples in storybook that use this component with the info addon. Just click the info button on the examples.
 
-[https://bottomline.github.io/bottomline-datepicker](Storybook)
+[Storybook](https://bottomline.github.io/bottomline-datepicker)
