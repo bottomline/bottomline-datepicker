@@ -1,8 +1,8 @@
-![Bottomline](./BT-logo-web-full-color.png)
+![Bottomline](https://raw.githubusercontent.com/bottomline/bottomline-datepicker/master/BT-logo-web-full-color.png)
 
 # Bottomline Datepicker React
 
-![Datepicker React](./readmeScreenshot.png)
+![Datepicker React](https://raw.githubusercontent.com/bottomline/bottomline-datepicker/master/readmeScreenshot.png)
 
 ## Description
 
