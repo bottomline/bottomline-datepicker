@@ -17,8 +17,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
         applyButtonClasses=""
         buttonClasses=""
         cancelButtonClasses=""
-        dateMax="2069-09-10"
-        dateMin="1969-09-10"
+        dateMax="2069-09-19"
+        dateMin="1969-09-19"
         error=""
         first={true}
         format="D MMM YYYY"
@@ -45,7 +45,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
           }
         }
         screenReaderLabel={false}
-        selectedEndDate={"2019-09-11T04:00:00.000Z"}
+        selectedEndDate={"2019-10-01T04:00:00.000Z"}
         selectedStartDate={"2019-09-06T04:00:00.000Z"}
         setHead={[Function]}
         timePicker24Hour={false}
@@ -57,8 +57,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
         yearDropdownMinYear={1969}
       >
         <Jss(MonthNav)
-          dateMax="2069-09-10"
-          dateMin="1969-09-10"
+          dateMax="2069-09-19"
+          dateMin="1969-09-19"
           first={true}
           head={"2019-09-06T04:00:00.000Z"}
           last={true}
@@ -80,8 +80,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                 "title": "MonthNav-title-0-1-25",
               }
             }
-            dateMax="2069-09-10"
-            dateMin="1969-09-10"
+            dateMax="2069-09-19"
+            dateMin="1969-09-19"
             first={true}
             head={"2019-09-06T04:00:00.000Z"}
             last={true}
@@ -171,8 +171,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
           applyButtonClasses=""
           buttonClasses=""
           cancelButtonClasses=""
-          dateMax="2069-09-10"
-          dateMin="1969-09-10"
+          dateMax="2069-09-19"
+          dateMin="1969-09-19"
           error=""
           format="D MMM YYYY"
           getClassNamesForDate={[Function]}
@@ -196,7 +196,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
             }
           }
           screenReaderLabel={false}
-          selectedEndDate={"2019-09-11T04:00:00.000Z"}
+          selectedEndDate={"2019-10-01T04:00:00.000Z"}
           selectedStartDate={"2019-09-06T04:00:00.000Z"}
           timePicker24Hour={false}
           timePickerIncrement={1}
@@ -215,8 +215,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                 "weekHeader": "Month-weekHeader-0-1-32",
               }
             }
-            dateMax="2069-09-10"
-            dateMin="1969-09-10"
+            dateMax="2069-09-19"
+            dateMin="1969-09-19"
             error=""
             format="D MMM YYYY"
             getClassNamesForDate={[Function]}
@@ -240,7 +240,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
               }
             }
             screenReaderLabel={false}
-            selectedEndDate={"2019-09-11T04:00:00.000Z"}
+            selectedEndDate={"2019-10-01T04:00:00.000Z"}
             selectedStartDate={"2019-09-06T04:00:00.000Z"}
             timePicker24Hour={false}
             timePickerIncrement={1}
@@ -331,8 +331,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-01T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -358,7 +358,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -381,8 +381,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-01T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -407,7 +407,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -436,8 +436,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-02T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -463,7 +463,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -486,8 +486,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-02T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -512,7 +512,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -541,8 +541,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-03T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -568,7 +568,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -591,8 +591,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-03T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -617,7 +617,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -646,8 +646,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-04T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -673,7 +673,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -696,8 +696,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-04T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -722,7 +722,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -751,8 +751,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-05T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -778,7 +778,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -801,8 +801,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-05T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -827,7 +827,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -856,8 +856,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-06T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -883,7 +883,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -906,8 +906,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-06T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -932,7 +932,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -961,8 +961,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-07T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -988,7 +988,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1011,8 +1011,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-07T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1037,7 +1037,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1077,8 +1077,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-08T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1104,7 +1104,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1127,8 +1127,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-08T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1153,7 +1153,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1182,8 +1182,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-09T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1209,7 +1209,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1232,8 +1232,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-09T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1258,7 +1258,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1287,8 +1287,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-10T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1314,7 +1314,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1337,8 +1337,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-10T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1363,7 +1363,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1373,7 +1373,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36 Day-isToday-0-1-37 Day-inRange-0-1-41"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-10"
                           disabled={false}
                           onClick={[Function]}
@@ -1392,8 +1392,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-11T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1419,7 +1419,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1442,8 +1442,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-11T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1468,7 +1468,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1478,7 +1478,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-11"
                           disabled={false}
                           onClick={[Function]}
@@ -1497,8 +1497,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-12T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1524,7 +1524,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1547,8 +1547,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-12T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1573,7 +1573,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1583,7 +1583,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-12"
                           disabled={false}
                           onClick={[Function]}
@@ -1602,8 +1602,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-13T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1629,7 +1629,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1652,8 +1652,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-13T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1678,7 +1678,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1688,7 +1688,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-13"
                           disabled={false}
                           onClick={[Function]}
@@ -1707,8 +1707,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-14T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1734,7 +1734,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1757,8 +1757,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-14T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1783,7 +1783,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1793,7 +1793,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-14"
                           disabled={false}
                           onClick={[Function]}
@@ -1823,8 +1823,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-15T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1850,7 +1850,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1873,8 +1873,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-15T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -1899,7 +1899,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -1909,7 +1909,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-15"
                           disabled={false}
                           onClick={[Function]}
@@ -1928,8 +1928,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-16T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -1955,7 +1955,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -1978,8 +1978,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-16T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2004,7 +2004,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2014,7 +2014,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-16"
                           disabled={false}
                           onClick={[Function]}
@@ -2033,8 +2033,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-17T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2060,7 +2060,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2083,8 +2083,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-17T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2109,7 +2109,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2119,7 +2119,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-17"
                           disabled={false}
                           onClick={[Function]}
@@ -2138,8 +2138,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-18T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2165,7 +2165,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2188,8 +2188,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-18T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2214,7 +2214,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2224,7 +2224,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-18"
                           disabled={false}
                           onClick={[Function]}
@@ -2243,8 +2243,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-19T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2270,7 +2270,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2293,8 +2293,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-19T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2319,7 +2319,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2329,7 +2329,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-isToday-0-1-37 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-19"
                           disabled={false}
                           onClick={[Function]}
@@ -2348,8 +2348,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-20T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2375,7 +2375,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2398,8 +2398,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-20T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2424,7 +2424,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2434,7 +2434,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-20"
                           disabled={false}
                           onClick={[Function]}
@@ -2453,8 +2453,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-21T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2480,7 +2480,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2503,8 +2503,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-21T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2529,7 +2529,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2539,7 +2539,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-21"
                           disabled={false}
                           onClick={[Function]}
@@ -2569,8 +2569,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-22T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2596,7 +2596,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2619,8 +2619,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-22T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2645,7 +2645,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2655,7 +2655,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-22"
                           disabled={false}
                           onClick={[Function]}
@@ -2674,8 +2674,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-23T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2701,7 +2701,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2724,8 +2724,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-23T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2750,7 +2750,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2760,7 +2760,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-23"
                           disabled={false}
                           onClick={[Function]}
@@ -2779,8 +2779,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-24T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2806,7 +2806,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2829,8 +2829,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-24T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2855,7 +2855,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2865,7 +2865,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-24"
                           disabled={false}
                           onClick={[Function]}
@@ -2884,8 +2884,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-25T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -2911,7 +2911,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -2934,8 +2934,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-25T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -2960,7 +2960,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -2970,7 +2970,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-25"
                           disabled={false}
                           onClick={[Function]}
@@ -2989,8 +2989,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-26T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3016,7 +3016,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3039,8 +3039,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-26T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3065,7 +3065,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3075,7 +3075,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-26"
                           disabled={false}
                           onClick={[Function]}
@@ -3094,8 +3094,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-27T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3121,7 +3121,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3144,8 +3144,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-27T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3170,7 +3170,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3180,7 +3180,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-27"
                           disabled={false}
                           onClick={[Function]}
@@ -3199,8 +3199,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-28T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3226,7 +3226,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3249,8 +3249,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-28T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3275,7 +3275,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3285,7 +3285,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-28"
                           disabled={false}
                           onClick={[Function]}
@@ -3315,8 +3315,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-29T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3342,7 +3342,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3365,8 +3365,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-29T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3391,7 +3391,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3401,7 +3401,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-29"
                           disabled={false}
                           onClick={[Function]}
@@ -3420,8 +3420,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-30T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3447,7 +3447,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3470,8 +3470,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-30T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3496,7 +3496,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3506,7 +3506,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-30"
                           disabled={false}
                           onClick={[Function]}
@@ -3525,8 +3525,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-01T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3552,7 +3552,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3575,8 +3575,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-01T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3601,7 +3601,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3630,8 +3630,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-02T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3657,7 +3657,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3680,8 +3680,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-02T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3706,7 +3706,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3735,8 +3735,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-03T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3762,7 +3762,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3785,8 +3785,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-03T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3811,7 +3811,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3840,8 +3840,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-04T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3867,7 +3867,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3890,8 +3890,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-04T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -3916,7 +3916,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -3945,8 +3945,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-05T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -3972,7 +3972,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -3995,8 +3995,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-05T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -4021,7 +4021,7 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -4061,8 +4061,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
       buttonClasses=""
       cancelButtonClasses=""
       dataQa=""
-      dateMax="2069-09-10"
-      dateMin="1969-09-10"
+      dateMax="2069-09-19"
+      dateMin="1969-09-19"
       disabled={false}
       error=""
       format="D MMM YYYY"
@@ -4106,8 +4106,8 @@ exports[`DatePicker should add show ISO weekNumbers 1`] = `
           }
         }
         dataQa=""
-        dateMax="2069-09-10"
-        dateMin="1969-09-10"
+        dateMax="2069-09-19"
+        dateMin="1969-09-19"
         disabled={false}
         error=""
         format="D MMM YYYY"
@@ -4184,8 +4184,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
         applyButtonClasses=""
         buttonClasses=""
         cancelButtonClasses=""
-        dateMax="2069-09-10"
-        dateMin="1969-09-10"
+        dateMax="2069-09-19"
+        dateMin="1969-09-19"
         error=""
         first={true}
         format="D MMM YYYY"
@@ -4212,7 +4212,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
           }
         }
         screenReaderLabel={false}
-        selectedEndDate={"2019-09-11T04:00:00.000Z"}
+        selectedEndDate={"2019-10-01T04:00:00.000Z"}
         selectedStartDate={"2019-09-06T04:00:00.000Z"}
         setHead={[Function]}
         timePicker24Hour={false}
@@ -4224,8 +4224,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
         yearDropdownMinYear={1969}
       >
         <Jss(MonthNav)
-          dateMax="2069-09-10"
-          dateMin="1969-09-10"
+          dateMax="2069-09-19"
+          dateMin="1969-09-19"
           first={true}
           head={"2019-09-06T04:00:00.000Z"}
           last={true}
@@ -4247,8 +4247,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                 "title": "MonthNav-title-0-1-25",
               }
             }
-            dateMax="2069-09-10"
-            dateMin="1969-09-10"
+            dateMax="2069-09-19"
+            dateMin="1969-09-19"
             first={true}
             head={"2019-09-06T04:00:00.000Z"}
             last={true}
@@ -4338,8 +4338,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
           applyButtonClasses=""
           buttonClasses=""
           cancelButtonClasses=""
-          dateMax="2069-09-10"
-          dateMin="1969-09-10"
+          dateMax="2069-09-19"
+          dateMin="1969-09-19"
           error=""
           format="D MMM YYYY"
           getClassNamesForDate={[Function]}
@@ -4363,7 +4363,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
             }
           }
           screenReaderLabel={false}
-          selectedEndDate={"2019-09-11T04:00:00.000Z"}
+          selectedEndDate={"2019-10-01T04:00:00.000Z"}
           selectedStartDate={"2019-09-06T04:00:00.000Z"}
           timePicker24Hour={false}
           timePickerIncrement={1}
@@ -4382,8 +4382,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                 "weekHeader": "Month-weekHeader-0-1-32",
               }
             }
-            dateMax="2069-09-10"
-            dateMin="1969-09-10"
+            dateMax="2069-09-19"
+            dateMin="1969-09-19"
             error=""
             format="D MMM YYYY"
             getClassNamesForDate={[Function]}
@@ -4407,7 +4407,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
               }
             }
             screenReaderLabel={false}
-            selectedEndDate={"2019-09-11T04:00:00.000Z"}
+            selectedEndDate={"2019-10-01T04:00:00.000Z"}
             selectedStartDate={"2019-09-06T04:00:00.000Z"}
             timePicker24Hour={false}
             timePickerIncrement={1}
@@ -4498,8 +4498,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-01T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -4525,7 +4525,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -4548,8 +4548,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-01T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -4574,7 +4574,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -4603,8 +4603,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-02T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -4630,7 +4630,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -4653,8 +4653,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-02T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -4679,7 +4679,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -4708,8 +4708,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-03T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -4735,7 +4735,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -4758,8 +4758,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-03T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -4784,7 +4784,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -4813,8 +4813,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-04T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -4840,7 +4840,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -4863,8 +4863,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-04T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -4889,7 +4889,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -4918,8 +4918,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-05T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -4945,7 +4945,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -4968,8 +4968,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-05T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -4994,7 +4994,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5023,8 +5023,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-06T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5050,7 +5050,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5073,8 +5073,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-06T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5099,7 +5099,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5128,8 +5128,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-07T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5155,7 +5155,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5178,8 +5178,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-07T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5204,7 +5204,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5244,8 +5244,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-08T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5271,7 +5271,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5294,8 +5294,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-08T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5320,7 +5320,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5349,8 +5349,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-09T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5376,7 +5376,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5399,8 +5399,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-09T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5425,7 +5425,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5454,8 +5454,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-10T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5481,7 +5481,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5504,8 +5504,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-10T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5530,7 +5530,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5540,7 +5540,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36 Day-isToday-0-1-37 Day-inRange-0-1-41"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-10"
                           disabled={false}
                           onClick={[Function]}
@@ -5559,8 +5559,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-11T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5586,7 +5586,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5609,8 +5609,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-11T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5635,7 +5635,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5645,7 +5645,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-11"
                           disabled={false}
                           onClick={[Function]}
@@ -5664,8 +5664,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-12T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5691,7 +5691,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5714,8 +5714,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-12T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5740,7 +5740,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5750,7 +5750,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-12"
                           disabled={false}
                           onClick={[Function]}
@@ -5769,8 +5769,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-13T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5796,7 +5796,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5819,8 +5819,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-13T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5845,7 +5845,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5855,7 +5855,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-13"
                           disabled={false}
                           onClick={[Function]}
@@ -5874,8 +5874,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-14T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -5901,7 +5901,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -5924,8 +5924,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-14T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -5950,7 +5950,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -5960,7 +5960,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-14"
                           disabled={false}
                           onClick={[Function]}
@@ -5990,8 +5990,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-15T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6017,7 +6017,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6040,8 +6040,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-15T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6066,7 +6066,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6076,7 +6076,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-15"
                           disabled={false}
                           onClick={[Function]}
@@ -6095,8 +6095,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-16T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6122,7 +6122,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6145,8 +6145,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-16T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6171,7 +6171,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6181,7 +6181,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-16"
                           disabled={false}
                           onClick={[Function]}
@@ -6200,8 +6200,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-17T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6227,7 +6227,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6250,8 +6250,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-17T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6276,7 +6276,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6286,7 +6286,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-17"
                           disabled={false}
                           onClick={[Function]}
@@ -6305,8 +6305,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-18T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6332,7 +6332,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6355,8 +6355,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-18T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6381,7 +6381,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6391,7 +6391,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-18"
                           disabled={false}
                           onClick={[Function]}
@@ -6410,8 +6410,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-19T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6437,7 +6437,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6460,8 +6460,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-19T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6486,7 +6486,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6496,7 +6496,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-isToday-0-1-37 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-19"
                           disabled={false}
                           onClick={[Function]}
@@ -6515,8 +6515,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-20T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6542,7 +6542,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6565,8 +6565,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-20T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6591,7 +6591,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6601,7 +6601,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-20"
                           disabled={false}
                           onClick={[Function]}
@@ -6620,8 +6620,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-21T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6647,7 +6647,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6670,8 +6670,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-21T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6696,7 +6696,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6706,7 +6706,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-21"
                           disabled={false}
                           onClick={[Function]}
@@ -6736,8 +6736,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-22T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6763,7 +6763,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6786,8 +6786,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-22T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6812,7 +6812,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6822,7 +6822,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-22"
                           disabled={false}
                           onClick={[Function]}
@@ -6841,8 +6841,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-23T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6868,7 +6868,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6891,8 +6891,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-23T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -6917,7 +6917,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -6927,7 +6927,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-23"
                           disabled={false}
                           onClick={[Function]}
@@ -6946,8 +6946,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-24T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -6973,7 +6973,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -6996,8 +6996,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-24T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7022,7 +7022,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7032,7 +7032,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-24"
                           disabled={false}
                           onClick={[Function]}
@@ -7051,8 +7051,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-25T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7078,7 +7078,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7101,8 +7101,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-25T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7127,7 +7127,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7137,7 +7137,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-25"
                           disabled={false}
                           onClick={[Function]}
@@ -7156,8 +7156,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-26T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7183,7 +7183,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7206,8 +7206,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-26T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7232,7 +7232,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7242,7 +7242,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-26"
                           disabled={false}
                           onClick={[Function]}
@@ -7261,8 +7261,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-27T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7288,7 +7288,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7311,8 +7311,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-27T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7337,7 +7337,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7347,7 +7347,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-27"
                           disabled={false}
                           onClick={[Function]}
@@ -7366,8 +7366,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-28T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7393,7 +7393,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7416,8 +7416,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-28T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7442,7 +7442,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7452,7 +7452,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-28"
                           disabled={false}
                           onClick={[Function]}
@@ -7482,8 +7482,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-29T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7509,7 +7509,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7532,8 +7532,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-29T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7558,7 +7558,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7568,7 +7568,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-29"
                           disabled={false}
                           onClick={[Function]}
@@ -7587,8 +7587,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-09-30T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7614,7 +7614,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7637,8 +7637,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-09-30T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7663,7 +7663,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7673,7 +7673,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         className=""
                       >
                         <button
-                          className="Day-cellButton-0-1-36"
+                          className="Day-cellButton-0-1-36 Day-inRange-0-1-41"
                           data-qa="calendar-day-2019-09-30"
                           disabled={false}
                           onClick={[Function]}
@@ -7692,8 +7692,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-01T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7719,7 +7719,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7742,8 +7742,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-01T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7768,7 +7768,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7797,8 +7797,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-02T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7824,7 +7824,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7847,8 +7847,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-02T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7873,7 +7873,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -7902,8 +7902,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-03T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -7929,7 +7929,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -7952,8 +7952,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-03T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -7978,7 +7978,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -8007,8 +8007,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-04T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -8034,7 +8034,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -8057,8 +8057,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-04T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -8083,7 +8083,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -8112,8 +8112,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                     buttonClasses=""
                     cancelButtonClasses=""
                     dataQa=""
-                    dateMax="2069-09-10"
-                    dateMin="1969-09-10"
+                    dateMax="2069-09-19"
+                    dateMin="1969-09-19"
                     day={"2019-10-05T04:00:00.000Z"}
                     error=""
                     format="D MMM YYYY"
@@ -8139,7 +8139,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                       }
                     }
                     screenReaderLabel={false}
-                    selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                    selectedEndDate={"2019-10-01T04:00:00.000Z"}
                     selectedStartDate={"2019-09-06T04:00:00.000Z"}
                     timePicker24Hour={false}
                     timePickerIncrement={1}
@@ -8162,8 +8162,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       dataQa=""
-                      dateMax="2069-09-10"
-                      dateMin="1969-09-10"
+                      dateMax="2069-09-19"
+                      dateMin="1969-09-19"
                       day={"2019-10-05T04:00:00.000Z"}
                       error=""
                       format="D MMM YYYY"
@@ -8188,7 +8188,7 @@ exports[`DatePicker should add show weekNumbers 1`] = `
                         }
                       }
                       screenReaderLabel={false}
-                      selectedEndDate={"2019-09-11T04:00:00.000Z"}
+                      selectedEndDate={"2019-10-01T04:00:00.000Z"}
                       selectedStartDate={"2019-09-06T04:00:00.000Z"}
                       timePicker24Hour={false}
                       timePickerIncrement={1}
@@ -8228,8 +8228,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
       buttonClasses=""
       cancelButtonClasses=""
       dataQa=""
-      dateMax="2069-09-10"
-      dateMin="1969-09-10"
+      dateMax="2069-09-19"
+      dateMin="1969-09-19"
       disabled={false}
       error=""
       format="D MMM YYYY"
@@ -8273,8 +8273,8 @@ exports[`DatePicker should add show weekNumbers 1`] = `
           }
         }
         dataQa=""
-        dateMax="2069-09-10"
-        dateMin="1969-09-10"
+        dateMax="2069-09-19"
+        dateMin="1969-09-19"
         disabled={false}
         error=""
         format="D MMM YYYY"

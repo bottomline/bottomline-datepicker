@@ -20,7 +20,7 @@ describe('dateCompare', () => {
 
   describe('isValidSelection', () => {
     it('has minDate and maxDate', () => {
-      const result = isValidSelection('2019-06-26', ['2001-09-11', '2020-09-11']);
+      const result = isValidSelection('2019-06-26', ['2001-10-01', '2020-10-01']);
       expect(result).toBe(true);
     });
   });

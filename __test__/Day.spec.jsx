@@ -20,7 +20,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           getClassNamesForDate: (day) => (day.get('date') % 3 === 0 ? 'customDay' : '')
         }}
       />
@@ -36,7 +36,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           getClassNamesForDate: (day) => (day.get('date') % 5 === 0 ? ['customDay', 'foobar'] : '')
         }}
       />
@@ -52,7 +52,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           getClassNamesForDate: () => ({ foo: 'bar' })
         }}
       />
@@ -68,7 +68,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           isSelectableDate: (day) => {
             const dayString = day.format('YYYY-MM-DD');
             const dates = ['2019-09-05', '2019-09-10'];
@@ -88,7 +88,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           isSelectableDate: (day) => {
             const dayString = day.format('YYYY-MM-DD');
             const dates = ['2019-09-05', '2019-09-10'];
@@ -108,7 +108,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           isSelectableDate: (day) => {
             const dayString = day.format('YYYY-MM-DD');
             const dates = ['2019-09-05', '2019-09-10'];

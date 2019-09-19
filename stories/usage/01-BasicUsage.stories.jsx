@@ -22,13 +22,13 @@ storiesOf('DatePicker.Usage', module)
   .add('dateStart /   dateEnd', () => (
     <ExampleDatePicker
       dateStart="2001-09-06"
-      dateEnd="2001-09-11"
+      dateEnd="2001-10-01"
     />
   ))
   .add('dateMin / dateMax', () => (
     <ExampleDatePicker
       dateStart="2019-09-06"
-      dateEnd="2019-09-11"
+      dateEnd="2019-10-01"
       dateMin="2019-08-01"
       dateMax="2019-10-01"
     />
@@ -42,7 +42,7 @@ storiesOf('DatePicker.Usage', module)
   .add('isCustomDate', () => (
     <ExampleDatePicker
       dateStart="2019-09-06"
-      dateEnd="2019-09-11"
+      dateEnd="2019-10-01"
       isCustomDate={(day) => (day.get('date') % 3 === 0 ? 'customDay' : '')}
     />
   ))
@@ -54,7 +54,7 @@ storiesOf('DatePicker.Usage', module)
   .add('isSelectableDate', () => (
     <ExampleDatePicker
       dateStart="2019-09-06"
-      dateEnd="2019-09-11"
+      dateEnd="2019-10-01"
       isSelectableDate={(day) => {
         const dayString = day.format('YYYY-MM-DD');
         const dates = ['2019-09-05', '2019-09-10'];
@@ -66,7 +66,7 @@ storiesOf('DatePicker.Usage', module)
   .add('isSelectableDate', () => (
     <ExampleDatePicker
       dateStart="2019-09-06"
-      dateEnd="2019-09-11"
+      dateEnd="2019-10-01"
       isSelectableDate={(day) => {
         const dayString = day.format('YYYY-MM-DD');
         const dates = ['2019-09-05', '2019-09-10'];

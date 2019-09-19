@@ -95,15 +95,15 @@ describe('stringToDates', () => {
   });
 
   it('should understand start and end dates', () => {
-    const [start, end] = stringToDates('6 Sep 2001 – 11 Sep 2001', '–');
+    const [start, end] = stringToDates('6 Sep 2001 – 1 Oct 2001', '–');
     expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 12:00:00pm');
-    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-11 12:00:00pm');
+    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-10-01 12:00:00pm');
   });
 
   it('should understand custom delimiter', () => {
-    const [start, end] = stringToDates('6 Sep 2001 –––– 11 Sep 2001', '––––');
+    const [start, end] = stringToDates('6 Sep 2001 –––– 1 Oct 2001', '––––');
     expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 12:00:00pm');
-    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-11 12:00:00pm');
+    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-10-01 12:00:00pm');
   });
 
   it('should understand time from start date', () => {

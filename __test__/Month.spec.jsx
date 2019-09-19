@@ -20,7 +20,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           weekNumbers: true
         }}
       />
@@ -36,7 +36,7 @@ describe('DatePicker', () => {
         {... defaultProps}
         {...{
           dateStart: '2019-09-06',
-          dateEnd: '2019-09-11',
+          dateEnd: '2019-10-01',
           weekNumbers: true,
           isoWeekNumbers: true
         }}

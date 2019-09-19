@@ -30,7 +30,7 @@ storiesOf('DatePicker.Usage.Dropdowns', module)
   .add('show both dropdowns with options', () => (
     <ExampleDatePicker
       dateStart="2013-09-06"
-      dateEnd="2013-09-11"
+      dateEnd="2013-10-01"
       monthDropdown
       yearDropdown
       yearDropdownMinYear={2010}

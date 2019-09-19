@@ -33,7 +33,7 @@ storiesOf('DatePicker.Usage.Styling', module)
   .add('getClassNamesForDate', () => (
     <ExampleDatePicker
       dateStart="2019-09-06"
-      dateEnd="2019-09-11"
+      dateEnd="2019-10-01"
       getClassNamesForDate={(day) => (day.get('date') % 3 === 0 ? 'customDay' : '')}
     />
   ))
