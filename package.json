@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.saas-p.com:7999/glu/glu-datepicker-react.git"
+    "url": "git@github.com:bottomline/bottomline-datepicker.git"
   },
   "license": "UNLICENSED",
   "devDependencies": {
