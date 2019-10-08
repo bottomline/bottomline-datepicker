@@ -1,6 +1,6 @@
 {
   "name": "@bottomline/datepicker",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0.0",
   "description": "A DatePicker for React applications",
   "babel": {
     "presets": [
