@@ -6,7 +6,7 @@
 
 ## Description
 
-A datepicker user interface built from scratch using React and Moment. Has many configuration options.
+A React based datepicker featuring single date or range of date selection, custom invalid dates, preselected and customizable date ranges selections, validation callbacks, optionally linked calendars, and a time picker for single times or a range of times. Created by Bottomline (https://www.bottomline.com)
 
 ## Installation instructions
 
