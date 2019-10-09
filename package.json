@@ -1,7 +1,8 @@
 {
   "name": "@bottomline/datepicker",
-  "version": "0.1.0.0",
+  "version": "0.1.2",
   "description": "A DatePicker for React applications",
+  "license" : "MIT",
   "babel": {
     "presets": [
       "@babel/preset-env",
@@ -24,7 +25,6 @@
     "type": "git",
     "url": "git@github.com:bottomline/bottomline-datepicker.git"
   },
-  "license": "UNLICENSED",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
