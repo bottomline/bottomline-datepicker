@@ -2354,7 +2354,7 @@ exports[`DateSelect should not show range on hover after workflow is complete 1`
 </div>
 `;
 
-exports[`DateSelect should restart range if one already selected 1`] = `"15 Mar 2018 – 18 Mar 2018"`;
+exports[`DateSelect should restart range if one already selected 1`] = `"15 Mar 2018–18 Mar 2018"`;
 
 exports[`DateSelect should show range on hover 1`] = `
 <div

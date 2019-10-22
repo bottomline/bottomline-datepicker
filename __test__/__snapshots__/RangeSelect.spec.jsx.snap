@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RangeSelect should set range after clicking on a predefined range label 1`] = `"20 Dec 2017 – 25 Dec 2017"`;
+exports[`RangeSelect should set range after clicking on a predefined range label 1`] = `"20 Dec 2017–25 Dec 2017"`;
 
 exports[`RangeSelect should show calendar when choosing ranges 1`] = `""`;
 

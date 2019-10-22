@@ -1855,7 +1855,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
           <div
             class="MonthNav-select-0-1-29"
           >
-            July
+            June
           </div>
           <div
             class="MonthNav-select-0-1-29"
@@ -1929,8 +1929,78 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-27"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  27
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-28"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  28
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-29"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  29
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-30"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  30
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-31"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  31
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-01"
+                data-qa="calendar-day-2018-06-01"
                 type="button"
               >
                 <span>
@@ -1943,7 +2013,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-02"
+                data-qa="calendar-day-2018-06-02"
                 type="button"
               >
                 <span>
@@ -1951,12 +2021,14 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-03"
+                data-qa="calendar-day-2018-06-03"
                 type="button"
               >
                 <span>
@@ -1968,8 +2040,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
-                data-qa="calendar-day-2018-07-04"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-04"
                 type="button"
               >
                 <span>
@@ -1981,8 +2053,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
-                data-qa="calendar-day-2018-07-05"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-05"
                 type="button"
               >
                 <span>
@@ -1994,8 +2066,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
-                data-qa="calendar-day-2018-07-06"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-06"
                 type="button"
               >
                 <span>
@@ -2007,8 +2079,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
-                data-qa="calendar-day-2018-07-07"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-07"
                 type="button"
               >
                 <span>
@@ -2016,14 +2088,12 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
-                data-qa="calendar-day-2018-07-08"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-08"
                 type="button"
               >
                 <span>
@@ -2035,8 +2105,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-inRange-0-1-41"
-                data-qa="calendar-day-2018-07-09"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-09"
                 type="button"
               >
                 <span>
@@ -2044,12 +2114,14 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
-                data-qa="calendar-day-2018-07-10"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-10"
                 type="button"
               >
                 <span>
@@ -2062,7 +2134,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-11"
+                data-qa="calendar-day-2018-06-11"
                 type="button"
               >
                 <span>
@@ -2075,7 +2147,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-12"
+                data-qa="calendar-day-2018-06-12"
                 type="button"
               >
                 <span>
@@ -2088,7 +2160,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-13"
+                data-qa="calendar-day-2018-06-13"
                 type="button"
               >
                 <span>
@@ -2101,7 +2173,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-14"
+                data-qa="calendar-day-2018-06-14"
                 type="button"
               >
                 <span>
@@ -2109,14 +2181,12 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-15"
+                data-qa="calendar-day-2018-06-15"
                 type="button"
               >
                 <span>
@@ -2129,7 +2199,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-16"
+                data-qa="calendar-day-2018-06-16"
                 type="button"
               >
                 <span>
@@ -2137,12 +2207,14 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-17"
+                data-qa="calendar-day-2018-06-17"
                 type="button"
               >
                 <span>
@@ -2155,7 +2227,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-18"
+                data-qa="calendar-day-2018-06-18"
                 type="button"
               >
                 <span>
@@ -2168,7 +2240,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-19"
+                data-qa="calendar-day-2018-06-19"
                 type="button"
               >
                 <span>
@@ -2181,7 +2253,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-20"
+                data-qa="calendar-day-2018-06-20"
                 type="button"
               >
                 <span>
@@ -2194,7 +2266,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-21"
+                data-qa="calendar-day-2018-06-21"
                 type="button"
               >
                 <span>
@@ -2202,14 +2274,12 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-22"
+                data-qa="calendar-day-2018-06-22"
                 type="button"
               >
                 <span>
@@ -2222,7 +2292,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-23"
+                data-qa="calendar-day-2018-06-23"
                 type="button"
               >
                 <span>
@@ -2230,12 +2300,14 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-24"
+                data-qa="calendar-day-2018-06-24"
                 type="button"
               >
                 <span>
@@ -2248,7 +2320,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-25"
+                data-qa="calendar-day-2018-06-25"
                 type="button"
               >
                 <span>
@@ -2260,8 +2332,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-26"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
+                data-qa="calendar-day-2018-06-26"
                 type="button"
               >
                 <span>
@@ -2273,8 +2345,8 @@ exports[`TextInput should set valid start and end to selection 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-27"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
+                data-qa="calendar-day-2018-06-27"
                 type="button"
               >
                 <span>
@@ -2287,7 +2359,7 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-28"
+                data-qa="calendar-day-2018-06-28"
                 type="button"
               >
                 <span>
@@ -2295,14 +2367,12 @@ exports[`TextInput should set valid start and end to selection 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-29"
+                data-qa="calendar-day-2018-06-29"
                 type="button"
               >
                 <span>
@@ -2315,80 +2385,11 @@ exports[`TextInput should set valid start and end to selection 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-30"
+                data-qa="calendar-day-2018-06-30"
                 type="button"
               >
                 <span>
                   30
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-31"
-                type="button"
-              >
-                <span>
-                  31
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-01"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  1
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-02"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  2
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-03"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  3
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-04"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  4
                 </span>
               </button>
             </td>
@@ -2460,7 +2461,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
           <div
             class="MonthNav-select-0-1-29"
           >
-            July
+            June
           </div>
           <div
             class="MonthNav-select-0-1-29"
@@ -2534,8 +2535,78 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
               class=""
             >
               <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-27"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  27
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-28"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  28
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-29"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  29
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-30"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  30
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-31"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  31
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-01"
+                data-qa="calendar-day-2018-06-01"
                 type="button"
               >
                 <span>
@@ -2548,7 +2619,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-02"
+                data-qa="calendar-day-2018-06-02"
                 type="button"
               >
                 <span>
@@ -2556,12 +2627,14 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-03"
+                data-qa="calendar-day-2018-06-03"
                 type="button"
               >
                 <span>
@@ -2573,8 +2646,8 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
-                data-qa="calendar-day-2018-07-04"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-04"
                 type="button"
               >
                 <span>
@@ -2587,7 +2660,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-05"
+                data-qa="calendar-day-2018-06-05"
                 type="button"
               >
                 <span>
@@ -2600,7 +2673,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-06"
+                data-qa="calendar-day-2018-06-06"
                 type="button"
               >
                 <span>
@@ -2613,7 +2686,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-07"
+                data-qa="calendar-day-2018-06-07"
                 type="button"
               >
                 <span>
@@ -2621,14 +2694,12 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-08"
+                data-qa="calendar-day-2018-06-08"
                 type="button"
               >
                 <span>
@@ -2641,7 +2712,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-09"
+                data-qa="calendar-day-2018-06-09"
                 type="button"
               >
                 <span>
@@ -2649,12 +2720,14 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-10"
+                data-qa="calendar-day-2018-06-10"
                 type="button"
               >
                 <span>
@@ -2667,7 +2740,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-11"
+                data-qa="calendar-day-2018-06-11"
                 type="button"
               >
                 <span>
@@ -2680,7 +2753,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-12"
+                data-qa="calendar-day-2018-06-12"
                 type="button"
               >
                 <span>
@@ -2693,7 +2766,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-13"
+                data-qa="calendar-day-2018-06-13"
                 type="button"
               >
                 <span>
@@ -2706,7 +2779,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-14"
+                data-qa="calendar-day-2018-06-14"
                 type="button"
               >
                 <span>
@@ -2714,14 +2787,12 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-15"
+                data-qa="calendar-day-2018-06-15"
                 type="button"
               >
                 <span>
@@ -2734,7 +2805,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-16"
+                data-qa="calendar-day-2018-06-16"
                 type="button"
               >
                 <span>
@@ -2742,12 +2813,14 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-17"
+                data-qa="calendar-day-2018-06-17"
                 type="button"
               >
                 <span>
@@ -2760,7 +2833,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-18"
+                data-qa="calendar-day-2018-06-18"
                 type="button"
               >
                 <span>
@@ -2773,7 +2846,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-19"
+                data-qa="calendar-day-2018-06-19"
                 type="button"
               >
                 <span>
@@ -2786,7 +2859,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-20"
+                data-qa="calendar-day-2018-06-20"
                 type="button"
               >
                 <span>
@@ -2799,7 +2872,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-21"
+                data-qa="calendar-day-2018-06-21"
                 type="button"
               >
                 <span>
@@ -2807,14 +2880,12 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-22"
+                data-qa="calendar-day-2018-06-22"
                 type="button"
               >
                 <span>
@@ -2827,7 +2898,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-23"
+                data-qa="calendar-day-2018-06-23"
                 type="button"
               >
                 <span>
@@ -2835,12 +2906,14 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-24"
+                data-qa="calendar-day-2018-06-24"
                 type="button"
               >
                 <span>
@@ -2853,7 +2926,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-25"
+                data-qa="calendar-day-2018-06-25"
                 type="button"
               >
                 <span>
@@ -2865,8 +2938,8 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-26"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
+                data-qa="calendar-day-2018-06-26"
                 type="button"
               >
                 <span>
@@ -2878,8 +2951,8 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-27"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
+                data-qa="calendar-day-2018-06-27"
                 type="button"
               >
                 <span>
@@ -2892,7 +2965,7 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-28"
+                data-qa="calendar-day-2018-06-28"
                 type="button"
               >
                 <span>
@@ -2900,14 +2973,12 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-29"
+                data-qa="calendar-day-2018-06-29"
                 type="button"
               >
                 <span>
@@ -2920,80 +2991,11 @@ exports[`TextInput should set valid start and ignore invalid end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-30"
+                data-qa="calendar-day-2018-06-30"
                 type="button"
               >
                 <span>
                   30
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-31"
-                type="button"
-              >
-                <span>
-                  31
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-01"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  1
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-02"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  2
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-03"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  3
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-04"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  4
                 </span>
               </button>
             </td>
@@ -3065,7 +3067,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
           <div
             class="MonthNav-select-0-1-29"
           >
-            July
+            June
           </div>
           <div
             class="MonthNav-select-0-1-29"
@@ -3139,8 +3141,78 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
               class=""
             >
               <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-27"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  27
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-28"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  28
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-29"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  29
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-30"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  30
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
+                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
+                data-qa="calendar-day-2018-05-31"
+                disabled=""
+                type="button"
+              >
+                <span>
+                  31
+                </span>
+              </button>
+            </td>
+            <td
+              class=""
+            >
+              <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-01"
+                data-qa="calendar-day-2018-06-01"
                 type="button"
               >
                 <span>
@@ -3153,7 +3225,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-02"
+                data-qa="calendar-day-2018-06-02"
                 type="button"
               >
                 <span>
@@ -3161,12 +3233,14 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-03"
+                data-qa="calendar-day-2018-06-03"
                 type="button"
               >
                 <span>
@@ -3178,8 +3252,8 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
-                data-qa="calendar-day-2018-07-04"
+                class="Day-cellButton-0-1-36"
+                data-qa="calendar-day-2018-06-04"
                 type="button"
               >
                 <span>
@@ -3192,7 +3266,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-05"
+                data-qa="calendar-day-2018-06-05"
                 type="button"
               >
                 <span>
@@ -3205,7 +3279,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-06"
+                data-qa="calendar-day-2018-06-06"
                 type="button"
               >
                 <span>
@@ -3218,7 +3292,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-07"
+                data-qa="calendar-day-2018-06-07"
                 type="button"
               >
                 <span>
@@ -3226,14 +3300,12 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-08"
+                data-qa="calendar-day-2018-06-08"
                 type="button"
               >
                 <span>
@@ -3246,7 +3318,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-09"
+                data-qa="calendar-day-2018-06-09"
                 type="button"
               >
                 <span>
@@ -3254,12 +3326,14 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-10"
+                data-qa="calendar-day-2018-06-10"
                 type="button"
               >
                 <span>
@@ -3272,7 +3346,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-11"
+                data-qa="calendar-day-2018-06-11"
                 type="button"
               >
                 <span>
@@ -3285,7 +3359,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-12"
+                data-qa="calendar-day-2018-06-12"
                 type="button"
               >
                 <span>
@@ -3298,7 +3372,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-13"
+                data-qa="calendar-day-2018-06-13"
                 type="button"
               >
                 <span>
@@ -3311,7 +3385,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-14"
+                data-qa="calendar-day-2018-06-14"
                 type="button"
               >
                 <span>
@@ -3319,14 +3393,12 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-15"
+                data-qa="calendar-day-2018-06-15"
                 type="button"
               >
                 <span>
@@ -3339,7 +3411,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-16"
+                data-qa="calendar-day-2018-06-16"
                 type="button"
               >
                 <span>
@@ -3347,12 +3419,14 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-17"
+                data-qa="calendar-day-2018-06-17"
                 type="button"
               >
                 <span>
@@ -3365,7 +3439,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-18"
+                data-qa="calendar-day-2018-06-18"
                 type="button"
               >
                 <span>
@@ -3378,7 +3452,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-19"
+                data-qa="calendar-day-2018-06-19"
                 type="button"
               >
                 <span>
@@ -3391,7 +3465,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-20"
+                data-qa="calendar-day-2018-06-20"
                 type="button"
               >
                 <span>
@@ -3404,7 +3478,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-21"
+                data-qa="calendar-day-2018-06-21"
                 type="button"
               >
                 <span>
@@ -3412,14 +3486,12 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-22"
+                data-qa="calendar-day-2018-06-22"
                 type="button"
               >
                 <span>
@@ -3432,7 +3504,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-23"
+                data-qa="calendar-day-2018-06-23"
                 type="button"
               >
                 <span>
@@ -3440,12 +3512,14 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
+          </tr>
+          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-24"
+                data-qa="calendar-day-2018-06-24"
                 type="button"
               >
                 <span>
@@ -3458,7 +3532,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-25"
+                data-qa="calendar-day-2018-06-25"
                 type="button"
               >
                 <span>
@@ -3470,8 +3544,8 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-26"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectStart-0-1-39"
+                data-qa="calendar-day-2018-06-26"
                 type="button"
               >
                 <span>
@@ -3483,8 +3557,8 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
               class=""
             >
               <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-27"
+                class="Day-cellButton-0-1-36 Day-selected-0-1-38 Day-selectEnd-0-1-40"
+                data-qa="calendar-day-2018-06-27"
                 type="button"
               >
                 <span>
@@ -3497,7 +3571,7 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-28"
+                data-qa="calendar-day-2018-06-28"
                 type="button"
               >
                 <span>
@@ -3505,14 +3579,12 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
                 </span>
               </button>
             </td>
-          </tr>
-          <tr>
             <td
               class=""
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-29"
+                data-qa="calendar-day-2018-06-29"
                 type="button"
               >
                 <span>
@@ -3525,80 +3597,11 @@ exports[`TextInput should set valid start and ignore malformed end 1`] = `
             >
               <button
                 class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-30"
+                data-qa="calendar-day-2018-06-30"
                 type="button"
               >
                 <span>
                   30
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36"
-                data-qa="calendar-day-2018-07-31"
-                type="button"
-              >
-                <span>
-                  31
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-01"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  1
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-02"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  2
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-03"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  3
-                </span>
-              </button>
-            </td>
-            <td
-              class=""
-            >
-              <button
-                class="Day-cellButton-0-1-36 Day-disabled-0-1-42 Day-hidden-0-1-43"
-                data-qa="calendar-day-2018-08-04"
-                disabled=""
-                type="button"
-              >
-                <span>
-                  4
                 </span>
               </button>
             </td>

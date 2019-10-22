@@ -1,10 +1,10 @@
 import injectSheet from 'react-jss';
 import moment from 'moment';
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Dropdown from './Dropdown';
 import TextInput from './TextInput';
-import ClickOutside from './ClickOutside';
+import useClickOutside from './utils/useClickOutside';
 import { datesToString } from './utils/formatString.js';
 import styles from './DatePicker.styles';
 
@@ -53,28 +53,34 @@ const DatePicker = ({
     setSelectedEndDate(confirmedEndDate);
   };
 
+  const ref = useRef();
+  useClickOutside(ref, handleClose);
+
   return (
-    <ClickOutside onClickOutside={handleClose}>
-      <div data-qa={dataQa ? `${dataQa}` : `datepicker-${htmlId}`} className={`${classes.datepicker} ${className}`}>
-        <TextInput {...{
-          handleApply,
-          handleClose,
-          htmlId,
-          inputValue,
-          name,
-          open,
-          screenReaderLabel,
-          selectedEndDate,
-          selectedStartDate,
-          setHead,
-          setInputValue,
-          setOpen,
-          setSelectedEndDate,
-          setSelectedStartDate,
-          ...rest
-        }}
-        />
-        {open && (
+    <div
+      data-qa={dataQa ? `${dataQa}` : `datepicker-${htmlId}`}
+      className={`${classes.datepicker} ${className}`}
+      ref={ref}
+    >
+      <TextInput {...{
+        handleApply,
+        handleClose,
+        htmlId,
+        inputValue,
+        name,
+        open,
+        screenReaderLabel,
+        selectedEndDate,
+        selectedStartDate,
+        setHead,
+        setInputValue,
+        setOpen,
+        setSelectedEndDate,
+        setSelectedStartDate,
+        ...rest
+      }}
+      />
+      {open && (
 
         <Dropdown {...{
           head,
@@ -89,9 +95,8 @@ const DatePicker = ({
           ...rest
         }}
         />
-        )}
-      </div>
-    </ClickOutside>
+      )}
+    </div>
   );
 };
 
@@ -173,8 +178,8 @@ DatePicker.propTypes = {
   placeholder: PropTypes.string,
 
   /**
-  * Whether the picker appears below (default) or above the HTML element it's attached to.
-  * ("down"/"up") */
+   * Whether the picker appears below (default) or above the HTML element it's attached to.
+   * ("down"/"up") */
   positionY: PropTypes.string,
 
   /**

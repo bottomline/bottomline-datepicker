@@ -9,7 +9,7 @@ import {
 } from '../src/utils/formatString.js';
 
 describe('formatTime', () => {
-  const date = moment('2019-06-26').set('hour', 16).set('minute', 20).set('second', 30);
+  const date = moment('2015-06-26').set('hour', 16).set('minute', 20).set('second', 30);
 
   it('should output 24 hour format correctly', () => {
     expect(formatTime(date, true, false)).toBe('16:20');
@@ -29,103 +29,107 @@ describe('formatTime', () => {
 });
 
 describe('datesToString', () => {
-  const date = moment('2019-06-26').set('hour', 16).set('minute', 20).set('second', 30);
-  const endDate = moment('2019-06-30').set('hour', 16).set('minute', 20).set('second', 30);
+  const date = moment('2015-06-26').set('hour', 16).set('minute', 20).set('second', 30);
+  const endDate = moment('2015-06-30').set('hour', 16).set('minute', 20).set('second', 30);
   const defaultProps = {
-    rangePresets: { Today: ['2019-09-09', '2019-09-09'] },
-    rangeDelimiter: '–',
+    rangePresets: { Today: ['2015-09-09', '2015-09-09'] },
+    rangeDelimiter: ' – ',
     format: 'YYYY-MM-DD'
   };
 
   it('should convert dates to a string', () => {
     const props = { ...defaultProps };
-    expect(datesToString(date, endDate, props)).toBe('2019-06-26 – 2019-06-30');
+    expect(datesToString(date, endDate, props)).toBe('2015-06-26 – 2015-06-30');
   });
 
   it('should convert dates to a string (seconds)', () => {
     const props = { ...defaultProps, timePickerSeconds: true };
-    expect(datesToString(date, endDate, props)).toBe('2019-06-26 – 2019-06-30');
+    expect(datesToString(date, endDate, props)).toBe('2015-06-26 – 2015-06-30');
   });
 
   it('should convert dates to a string when end date is undefined', () => {
     const props = { ...defaultProps };
-    expect(datesToString(date, undefined, props)).toBe('2019-06-26');
+    expect(datesToString(date, undefined, props)).toBe('2015-06-26');
   });
 
   it('should format time (timePicker)', () => {
     const props = {
       ...defaultProps,
-      timePicker: true
+      timePicker: true,
+      format: (start, end) => `${start.format('YYYY-MM-DD')} – ${end.format('YYYY-MM-DD')} (${start.format('h:mma')})`
     };
-    expect(datesToString(date, endDate, props)).toBe('2019-06-26 – 2019-06-30 (4:20pm)');
+    expect(datesToString(date, endDate, props)).toBe('2015-06-26 – 2015-06-30 (4:20pm)');
   });
 
   it('should format time (timePicker, seconds, no end date)', () => {
     const props = {
       ...defaultProps,
       timePicker: true,
-      timePickerSeconds: true
+      timePickerSeconds: true,
+      format: 'YYYY-MM-DD (h:mm:ssa)'
     };
-    expect(datesToString(date, undefined, props)).toBe('2019-06-26 (4:20:30pm)');
+    expect(datesToString(date, undefined, props)).toBe('2015-06-26 (4:20:30pm)');
   });
 
   it('should format time (timePickerRange)', () => {
     const props = {
       ...defaultProps,
-      timePickerRange: true
+      timePickerRange: true,
+      format: 'YYYY-MM-DD (h:mma)'
     };
-    expect(datesToString(date, endDate, props)).toBe('2019-06-26 (4:20pm) – 2019-06-30 (4:20pm)');
+    expect(datesToString(date, endDate, props)).toBe('2015-06-26 (4:20pm) – 2015-06-30 (4:20pm)');
   });
 
   it('should format time (timePickerRange, seconds, no end date)', () => {
     const props = {
       ...defaultProps,
       timePickerRange: true,
-      timePickerSeconds: true
+      timePickerSeconds: true,
+      format: 'YYYY-MM-DD (h:mm:ssa)'
     };
-    expect(datesToString(date, undefined, props)).toBe('2019-06-26 (4:20:30pm)');
+    expect(datesToString(date, undefined, props)).toBe('2015-06-26 (4:20:30pm)');
   });
 });
 
 describe('stringToDates', () => {
   it('should understand start date', () => {
-    const [start, end] = stringToDates('6 Sep 2001', undefined);
-    expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 12:00:00pm');
-    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 12:00:00pm');
+    const [start, end] = stringToDates('6 Sep 2001', undefined, 'D MMM YYYY');
+    expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 00:00:00am');
+    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 00:00:00am');
   });
 
   it('should understand start and end dates', () => {
-    const [start, end] = stringToDates('6 Sep 2001 – 1 Oct 2001', '–');
-    expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 12:00:00pm');
-    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-10-01 12:00:00pm');
+    const [start, end] = stringToDates('6 Sep 2001 – 1 Oct 2001', '–', 'D MMM YYYY');
+    expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 00:00:00am');
+    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-10-01 00:00:00am');
   });
 
   it('should understand custom delimiter', () => {
-    const [start, end] = stringToDates('6 Sep 2001 –––– 1 Oct 2001', '––––');
-    expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 12:00:00pm');
-    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-10-01 12:00:00pm');
+    const [start, end] = stringToDates('6 Sep 2001 –––– 1 Oct 2001', '––––', 'D MMM YYYY');
+    expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 00:00:00am');
+    expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-10-01 00:00:00am');
   });
 
   it('should understand time from start date', () => {
-    const [start, end] = stringToDates('6 Sep 2001 (4:20:30pm)', undefined);
+    const [start, end] = stringToDates('6 Sep 2001 (4:20:30pm)', undefined, 'D MMM YYYY (h:mm:ssa)');
     expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 16:20:30pm');
     expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 16:20:30pm');
   });
 
   it('should understand time from start and end date', () => {
-    const [start, end] = stringToDates('6 Sep 2001 (4:20:30pm) - 6 Sep 2001 (2:10:20)', '-');
+    const [start, end] = stringToDates('6 Sep 2001 (4:20:30pm) - 6 Sep 2001 (2:10:20)', '-', 'D MMM YYYY (h:mm:ssa)');
     expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 16:20:30pm');
     expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 02:10:20am');
   });
 
   it('should understand 24 hour time', () => {
-    const [start, end] = stringToDates('6 Sep 2001 (18:13) - 6 Sep 2001 (18:15)', '-');
+    const [start, end] = stringToDates('6 Sep 2001 (18:13) - 6 Sep 2001 (18:15)', '-', 'D MMM YYYY (h:mm)');
     expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 18:13:00pm');
     expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 18:15:00pm');
   });
 
   it('should understand meridiem time', () => {
-    const [start, end] = stringToDates('6 Sep 2001 (3:13pm) - 6 Sep 2001 (2:15am)', '-');
+    const [start, end] = stringToDates('6 Sep 2001 (3:13pm) - 6 Sep 2001 (2:15am)', '-', 'D MMM YYYY (h:mma)');
     expect(start.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 15:13:00pm');
     expect(end.format('YYYY-MM-DD HH:mm:ssa')).toBe('2001-09-06 02:15:00am');
   });

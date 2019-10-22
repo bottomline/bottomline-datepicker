@@ -71,6 +71,6 @@ exports[`DatePicker should show week numbers 1`] = `
 </thead>
 `;
 
-exports[`DatePicker should update input with date range 1`] = `"20 Mar 2018 – 22 Mar 2018"`;
+exports[`DatePicker should update input with date range 1`] = `"20 Mar 2018–22 Mar 2018"`;
 
-exports[`DatePicker should update input with date range with autoapply 1`] = `"20 Mar 2018 – 22 Mar 2018"`;
+exports[`DatePicker should update input with date range with autoapply 1`] = `"20 Mar 2018–22 Mar 2018"`;

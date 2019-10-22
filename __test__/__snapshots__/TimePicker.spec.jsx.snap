@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TimePicker should format 24 hour time correctly 1`] = `"11 Jun 2019 (12:02:00)"`;
+exports[`TimePicker should format 24 hour time correctly 1`] = `"11 Jun 2019"`;
 
-exports[`TimePicker should update input with single time 1`] = `"11 Jun 2019 (3:03:03am)"`;
+exports[`TimePicker should update input with single time 1`] = `"11 Jun 2019"`;
 
-exports[`TimePicker should update input with time range 1`] = `"11 Jun 2019 (3:03am) – (3:03pm)"`;
+exports[`TimePicker should update input with time range 1`] = `"11 Jun 2019"`;
