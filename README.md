@@ -31,4 +31,6 @@ Follow the install instructions above, run npm run storybook, then goto http://l
 
 ## Options
 
-All options for the datepicker are listed as props in the [Storybook based demo site](https://bottomline.github.io/bottomline-datepicker). 
+All options for the datepicker are listed as props in the [Storybook based demo site](https://bottomline.github.io/bottomline-datepicker).
+
+Test
